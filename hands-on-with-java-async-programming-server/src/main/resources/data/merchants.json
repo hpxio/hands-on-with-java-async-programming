@@ -1,0 +1,30 @@
+[
+    {
+      "id": 4001,
+      "uid": 43788119,
+      "city": "Longbranch",
+      "state": "Palau",
+      "country": "Togo"
+    },
+    {
+      "id": 1001,
+      "uid": 43788120,
+      "city": "Nadine",
+      "state": "Wisconsin",
+      "country": "El Salvador"
+    },
+    {
+      "id": 3001,
+      "uid": 43788121,
+      "city": "Fairfield",
+      "state": "Marshall Islands",
+      "country": "Korea (North)"
+    },
+    {
+      "id": 2001,
+      "uid": 43788122,
+      "city": "Grandview",
+      "state": "Colorado",
+      "country": "Chad"
+    }
+  ]

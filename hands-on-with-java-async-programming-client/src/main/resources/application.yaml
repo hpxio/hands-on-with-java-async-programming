@@ -1,0 +1,13 @@
+server:
+  port: 8087
+
+spring:
+  application:
+    name: Async-Programming-Client
+
+feign-client:
+    url: http://localhost:8089/api/v1/transactions
+
+feign:
+  logger:
+    level: FULL

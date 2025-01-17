@@ -1,0 +1,3502 @@
+[
+  {
+    "id": 10001,
+    "storeId": 5009,
+    "amount": 10.01,
+    "timestamp": 20240923084109,
+    "status": "failed"
+  },
+  {
+    "id": 10002,
+    "storeId": 5010,
+    "amount": 12.49,
+    "timestamp": 20240430014907,
+    "status": "success"
+  },
+  {
+    "id": 10003,
+    "storeId": 5006,
+    "amount": 14.4,
+    "timestamp": 20241223054715,
+    "status": "success"
+  },
+  {
+    "id": 10004,
+    "storeId": 5009,
+    "amount": 16.81,
+    "timestamp": 20240227104900,
+    "status": "success"
+  },
+  {
+    "id": 10005,
+    "storeId": 5009,
+    "amount": 11.87,
+    "timestamp": 20240621030209,
+    "status": "success"
+  },
+  {
+    "id": 10006,
+    "storeId": 5010,
+    "amount": 11.66,
+    "timestamp": 20240723021736,
+    "status": "success"
+  },
+  {
+    "id": 10007,
+    "storeId": 5003,
+    "amount": 19.5,
+    "timestamp": 20241122082116,
+    "status": "failed"
+  },
+  {
+    "id": 10008,
+    "storeId": 5006,
+    "amount": 16.95,
+    "timestamp": 20240103082104,
+    "status": "failed"
+  },
+  {
+    "id": 10009,
+    "storeId": 5003,
+    "amount": 16.62,
+    "timestamp": 20240912011226,
+    "status": "success"
+  },
+  {
+    "id": 10010,
+    "storeId": 5002,
+    "amount": 11.34,
+    "timestamp": 20250111024032,
+    "status": "success"
+  },
+  {
+    "id": 10011,
+    "storeId": 5008,
+    "amount": 15.48,
+    "timestamp": 20241212012030,
+    "status": "success"
+  },
+  {
+    "id": 10012,
+    "storeId": 5005,
+    "amount": 13.57,
+    "timestamp": 20240520081052,
+    "status": "failed"
+  },
+  {
+    "id": 10013,
+    "storeId": 5008,
+    "amount": 18.15,
+    "timestamp": 20240728082100,
+    "status": "success"
+  },
+  {
+    "id": 10014,
+    "storeId": 5004,
+    "amount": 16.69,
+    "timestamp": 20240111030612,
+    "status": "success"
+  },
+  {
+    "id": 10015,
+    "storeId": 5001,
+    "amount": 13.89,
+    "timestamp": 20240616061733,
+    "status": "success"
+  },
+  {
+    "id": 10016,
+    "storeId": 5002,
+    "amount": 12.07,
+    "timestamp": 20240601084946,
+    "status": "failed"
+  },
+  {
+    "id": 10017,
+    "storeId": 5002,
+    "amount": 10.5,
+    "timestamp": 20241009092028,
+    "status": "success"
+  },
+  {
+    "id": 10018,
+    "storeId": 5007,
+    "amount": 10.43,
+    "timestamp": 20241209121249,
+    "status": "success"
+  },
+  {
+    "id": 10019,
+    "storeId": 5002,
+    "amount": 17.85,
+    "timestamp": 20250104064003,
+    "status": "success"
+  },
+  {
+    "id": 10020,
+    "storeId": 5009,
+    "amount": 15.71,
+    "timestamp": 20240630101753,
+    "status": "success"
+  },
+  {
+    "id": 10021,
+    "storeId": 5004,
+    "amount": 18.07,
+    "timestamp": 20240304043157,
+    "status": "success"
+  },
+  {
+    "id": 10022,
+    "storeId": 5001,
+    "amount": 16.44,
+    "timestamp": 20240429081200,
+    "status": "failed"
+  },
+  {
+    "id": 10023,
+    "storeId": 5004,
+    "amount": 19.37,
+    "timestamp": 20240601103322,
+    "status": "success"
+  },
+  {
+    "id": 10024,
+    "storeId": 5009,
+    "amount": 10.15,
+    "timestamp": 20240228054822,
+    "status": "failed"
+  },
+  {
+    "id": 10025,
+    "storeId": 5001,
+    "amount": 15.05,
+    "timestamp": 20240529081934,
+    "status": "success"
+  },
+  {
+    "id": 10026,
+    "storeId": 5002,
+    "amount": 16.68,
+    "timestamp": 20240620121423,
+    "status": "failed"
+  },
+  {
+    "id": 10027,
+    "storeId": 5004,
+    "amount": 18.01,
+    "timestamp": 20240330074959,
+    "status": "failed"
+  },
+  {
+    "id": 10028,
+    "storeId": 5005,
+    "amount": 14.88,
+    "timestamp": 20240612094153,
+    "status": "failed"
+  },
+  {
+    "id": 10029,
+    "storeId": 5002,
+    "amount": 12.11,
+    "timestamp": 20241228114356,
+    "status": "failed"
+  },
+  {
+    "id": 10030,
+    "storeId": 5004,
+    "amount": 18.39,
+    "timestamp": 20241121092218,
+    "status": "success"
+  },
+  {
+    "id": 10031,
+    "storeId": 5008,
+    "amount": 18.26,
+    "timestamp": 20241126085749,
+    "status": "failed"
+  },
+  {
+    "id": 10032,
+    "storeId": 5003,
+    "amount": 10.53,
+    "timestamp": 20240118075244,
+    "status": "success"
+  },
+  {
+    "id": 10033,
+    "storeId": 5009,
+    "amount": 16.84,
+    "timestamp": 20241229023542,
+    "status": "success"
+  },
+  {
+    "id": 10034,
+    "storeId": 5009,
+    "amount": 16.69,
+    "timestamp": 20240529032335,
+    "status": "success"
+  },
+  {
+    "id": 10035,
+    "storeId": 5000,
+    "amount": 10.64,
+    "timestamp": 20240817050220,
+    "status": "failed"
+  },
+  {
+    "id": 10036,
+    "storeId": 5009,
+    "amount": 18.44,
+    "timestamp": 20240823055440,
+    "status": "success"
+  },
+  {
+    "id": 10037,
+    "storeId": 5000,
+    "amount": 15.82,
+    "timestamp": 20241101010329,
+    "status": "success"
+  },
+  {
+    "id": 10038,
+    "storeId": 5005,
+    "amount": 12.65,
+    "timestamp": 20240924030936,
+    "status": "failed"
+  },
+  {
+    "id": 10039,
+    "storeId": 5003,
+    "amount": 13.02,
+    "timestamp": 20240910013220,
+    "status": "failed"
+  },
+  {
+    "id": 10040,
+    "storeId": 5008,
+    "amount": 16.52,
+    "timestamp": 20250105095740,
+    "status": "failed"
+  },
+  {
+    "id": 10041,
+    "storeId": 5005,
+    "amount": 18.07,
+    "timestamp": 20240310065810,
+    "status": "failed"
+  },
+  {
+    "id": 10042,
+    "storeId": 5008,
+    "amount": 15.13,
+    "timestamp": 20240403052423,
+    "status": "failed"
+  },
+  {
+    "id": 10043,
+    "storeId": 5010,
+    "amount": 13.24,
+    "timestamp": 20241107083017,
+    "status": "failed"
+  },
+  {
+    "id": 10044,
+    "storeId": 5009,
+    "amount": 13.63,
+    "timestamp": 20240625125827,
+    "status": "failed"
+  },
+  {
+    "id": 10045,
+    "storeId": 5007,
+    "amount": 14.35,
+    "timestamp": 20241201092722,
+    "status": "success"
+  },
+  {
+    "id": 10046,
+    "storeId": 5004,
+    "amount": 10.79,
+    "timestamp": 20241005062051,
+    "status": "success"
+  },
+  {
+    "id": 10047,
+    "storeId": 5010,
+    "amount": 17.01,
+    "timestamp": 20240218123404,
+    "status": "failed"
+  },
+  {
+    "id": 10048,
+    "storeId": 5004,
+    "amount": 15.18,
+    "timestamp": 20240713015453,
+    "status": "success"
+  },
+  {
+    "id": 10049,
+    "storeId": 5004,
+    "amount": 11.87,
+    "timestamp": 20240125031347,
+    "status": "failed"
+  },
+  {
+    "id": 10050,
+    "storeId": 5005,
+    "amount": 16.64,
+    "timestamp": 20240523084106,
+    "status": "success"
+  },
+  {
+    "id": 10051,
+    "storeId": 5004,
+    "amount": 17.69,
+    "timestamp": 20240424065642,
+    "status": "success"
+  },
+  {
+    "id": 10052,
+    "storeId": 5005,
+    "amount": 17.44,
+    "timestamp": 20240202122211,
+    "status": "failed"
+  },
+  {
+    "id": 10053,
+    "storeId": 5010,
+    "amount": 12.75,
+    "timestamp": 20241120060626,
+    "status": "failed"
+  },
+  {
+    "id": 10054,
+    "storeId": 5003,
+    "amount": 16.99,
+    "timestamp": 20240621042358,
+    "status": "success"
+  },
+  {
+    "id": 10055,
+    "storeId": 5004,
+    "amount": 13.67,
+    "timestamp": 20240323024747,
+    "status": "success"
+  },
+  {
+    "id": 10056,
+    "storeId": 5005,
+    "amount": 17.89,
+    "timestamp": 20241006091719,
+    "status": "failed"
+  },
+  {
+    "id": 10057,
+    "storeId": 5009,
+    "amount": 13.57,
+    "timestamp": 20240306082244,
+    "status": "success"
+  },
+  {
+    "id": 10058,
+    "storeId": 5001,
+    "amount": 11.51,
+    "timestamp": 20240204045332,
+    "status": "success"
+  },
+  {
+    "id": 10059,
+    "storeId": 5003,
+    "amount": 10.07,
+    "timestamp": 20250108064731,
+    "status": "failed"
+  },
+  {
+    "id": 10060,
+    "storeId": 5009,
+    "amount": 14.16,
+    "timestamp": 20240512083838,
+    "status": "success"
+  },
+  {
+    "id": 10061,
+    "storeId": 5001,
+    "amount": 11.62,
+    "timestamp": 20240425123811,
+    "status": "failed"
+  },
+  {
+    "id": 10062,
+    "storeId": 5010,
+    "amount": 10.25,
+    "timestamp": 20240102112036,
+    "status": "success"
+  },
+  {
+    "id": 10063,
+    "storeId": 5009,
+    "amount": 13.08,
+    "timestamp": 20240216051645,
+    "status": "success"
+  },
+  {
+    "id": 10064,
+    "storeId": 5005,
+    "amount": 17.48,
+    "timestamp": 20241013111011,
+    "status": "failed"
+  },
+  {
+    "id": 10065,
+    "storeId": 5007,
+    "amount": 11.8,
+    "timestamp": 20240913113041,
+    "status": "success"
+  },
+  {
+    "id": 10066,
+    "storeId": 5001,
+    "amount": 17.91,
+    "timestamp": 20240729042914,
+    "status": "failed"
+  },
+  {
+    "id": 10067,
+    "storeId": 5001,
+    "amount": 10.39,
+    "timestamp": 20240515050127,
+    "status": "success"
+  },
+  {
+    "id": 10068,
+    "storeId": 5008,
+    "amount": 18.85,
+    "timestamp": 20240312080850,
+    "status": "failed"
+  },
+  {
+    "id": 10069,
+    "storeId": 5000,
+    "amount": 13.59,
+    "timestamp": 20240708021943,
+    "status": "success"
+  },
+  {
+    "id": 10070,
+    "storeId": 5007,
+    "amount": 16.74,
+    "timestamp": 20241227023109,
+    "status": "success"
+  },
+  {
+    "id": 10071,
+    "storeId": 5006,
+    "amount": 14.31,
+    "timestamp": 20240814125031,
+    "status": "success"
+  },
+  {
+    "id": 10072,
+    "storeId": 5006,
+    "amount": 19.06,
+    "timestamp": 20240817035832,
+    "status": "failed"
+  },
+  {
+    "id": 10073,
+    "storeId": 5007,
+    "amount": 13.26,
+    "timestamp": 20241020105854,
+    "status": "success"
+  },
+  {
+    "id": 10074,
+    "storeId": 5010,
+    "amount": 17.81,
+    "timestamp": 20241211035108,
+    "status": "failed"
+  },
+  {
+    "id": 10075,
+    "storeId": 5004,
+    "amount": 15.35,
+    "timestamp": 20241206030024,
+    "status": "failed"
+  },
+  {
+    "id": 10076,
+    "storeId": 5003,
+    "amount": 11.68,
+    "timestamp": 20240401084108,
+    "status": "success"
+  },
+  {
+    "id": 10077,
+    "storeId": 5008,
+    "amount": 13.66,
+    "timestamp": 20240214105707,
+    "status": "success"
+  },
+  {
+    "id": 10078,
+    "storeId": 5010,
+    "amount": 15.02,
+    "timestamp": 20240424061318,
+    "status": "success"
+  },
+  {
+    "id": 10079,
+    "storeId": 5002,
+    "amount": 11.93,
+    "timestamp": 20240424044325,
+    "status": "failed"
+  },
+  {
+    "id": 10080,
+    "storeId": 5009,
+    "amount": 15.68,
+    "timestamp": 20240208100135,
+    "status": "failed"
+  },
+  {
+    "id": 10081,
+    "storeId": 5001,
+    "amount": 13.51,
+    "timestamp": 20240308015215,
+    "status": "failed"
+  },
+  {
+    "id": 10082,
+    "storeId": 5001,
+    "amount": 12.25,
+    "timestamp": 20240525121156,
+    "status": "failed"
+  },
+  {
+    "id": 10083,
+    "storeId": 5010,
+    "amount": 19.5,
+    "timestamp": 20240724125031,
+    "status": "success"
+  },
+  {
+    "id": 10084,
+    "storeId": 5008,
+    "amount": 17.05,
+    "timestamp": 20240229010641,
+    "status": "success"
+  },
+  {
+    "id": 10085,
+    "storeId": 5000,
+    "amount": 18.57,
+    "timestamp": 20240907101436,
+    "status": "success"
+  },
+  {
+    "id": 10086,
+    "storeId": 5002,
+    "amount": 17.26,
+    "timestamp": 20240908111224,
+    "status": "failed"
+  },
+  {
+    "id": 10087,
+    "storeId": 5004,
+    "amount": 19.36,
+    "timestamp": 20240322015442,
+    "status": "failed"
+  },
+  {
+    "id": 10088,
+    "storeId": 5003,
+    "amount": 11.66,
+    "timestamp": 20240128081522,
+    "status": "success"
+  },
+  {
+    "id": 10089,
+    "storeId": 5003,
+    "amount": 12.85,
+    "timestamp": 20240331080148,
+    "status": "success"
+  },
+  {
+    "id": 10090,
+    "storeId": 5000,
+    "amount": 18.63,
+    "timestamp": 20240504102918,
+    "status": "success"
+  },
+  {
+    "id": 10091,
+    "storeId": 5010,
+    "amount": 20,
+    "timestamp": 20240301062307,
+    "status": "success"
+  },
+  {
+    "id": 10092,
+    "storeId": 5000,
+    "amount": 16.64,
+    "timestamp": 20240713010746,
+    "status": "success"
+  },
+  {
+    "id": 10093,
+    "storeId": 5010,
+    "amount": 15.09,
+    "timestamp": 20240409100921,
+    "status": "success"
+  },
+  {
+    "id": 10094,
+    "storeId": 5005,
+    "amount": 17.45,
+    "timestamp": 20240406093908,
+    "status": "success"
+  },
+  {
+    "id": 10095,
+    "storeId": 5009,
+    "amount": 17.85,
+    "timestamp": 20240304032153,
+    "status": "failed"
+  },
+  {
+    "id": 10096,
+    "storeId": 5006,
+    "amount": 10.69,
+    "timestamp": 20240707112857,
+    "status": "failed"
+  },
+  {
+    "id": 10097,
+    "storeId": 5006,
+    "amount": 10.19,
+    "timestamp": 20241225123750,
+    "status": "failed"
+  },
+  {
+    "id": 10098,
+    "storeId": 5009,
+    "amount": 18.77,
+    "timestamp": 20240703025844,
+    "status": "failed"
+  },
+  {
+    "id": 10099,
+    "storeId": 5004,
+    "amount": 18.16,
+    "timestamp": 20241123102942,
+    "status": "failed"
+  },
+  {
+    "id": 10100,
+    "storeId": 5005,
+    "amount": 18.67,
+    "timestamp": 20241026111550,
+    "status": "success"
+  },
+  {
+    "id": 10101,
+    "storeId": 5006,
+    "amount": 17.02,
+    "timestamp": 20240705050824,
+    "status": "failed"
+  },
+  {
+    "id": 10102,
+    "storeId": 5006,
+    "amount": 12.36,
+    "timestamp": 20241216090247,
+    "status": "failed"
+  },
+  {
+    "id": 10103,
+    "storeId": 5010,
+    "amount": 11.08,
+    "timestamp": 20241217095357,
+    "status": "failed"
+  },
+  {
+    "id": 10104,
+    "storeId": 5006,
+    "amount": 11.44,
+    "timestamp": 20240527083712,
+    "status": "failed"
+  },
+  {
+    "id": 10105,
+    "storeId": 5005,
+    "amount": 16.69,
+    "timestamp": 20240523113751,
+    "status": "success"
+  },
+  {
+    "id": 10106,
+    "storeId": 5010,
+    "amount": 14.51,
+    "timestamp": 20240605083529,
+    "status": "success"
+  },
+  {
+    "id": 10107,
+    "storeId": 5005,
+    "amount": 16.52,
+    "timestamp": 20241213062122,
+    "status": "success"
+  },
+  {
+    "id": 10108,
+    "storeId": 5008,
+    "amount": 19.94,
+    "timestamp": 20241206035601,
+    "status": "failed"
+  },
+  {
+    "id": 10109,
+    "storeId": 5003,
+    "amount": 12.64,
+    "timestamp": 20240909075605,
+    "status": "failed"
+  },
+  {
+    "id": 10110,
+    "storeId": 5010,
+    "amount": 14.08,
+    "timestamp": 20240302015911,
+    "status": "success"
+  },
+  {
+    "id": 10111,
+    "storeId": 5007,
+    "amount": 12.11,
+    "timestamp": 20240507124515,
+    "status": "success"
+  },
+  {
+    "id": 10112,
+    "storeId": 5002,
+    "amount": 16.56,
+    "timestamp": 20240719062805,
+    "status": "failed"
+  },
+  {
+    "id": 10113,
+    "storeId": 5003,
+    "amount": 15.68,
+    "timestamp": 20240426062319,
+    "status": "failed"
+  },
+  {
+    "id": 10114,
+    "storeId": 5003,
+    "amount": 18.35,
+    "timestamp": 20240720013516,
+    "status": "success"
+  },
+  {
+    "id": 10115,
+    "storeId": 5003,
+    "amount": 17.84,
+    "timestamp": 20240531085410,
+    "status": "failed"
+  },
+  {
+    "id": 10116,
+    "storeId": 5004,
+    "amount": 14.59,
+    "timestamp": 20240315113823,
+    "status": "failed"
+  },
+  {
+    "id": 10117,
+    "storeId": 5001,
+    "amount": 15.82,
+    "timestamp": 20241201012718,
+    "status": "success"
+  },
+  {
+    "id": 10118,
+    "storeId": 5003,
+    "amount": 10.6,
+    "timestamp": 20240530014749,
+    "status": "success"
+  },
+  {
+    "id": 10119,
+    "storeId": 5005,
+    "amount": 11.32,
+    "timestamp": 20240413010833,
+    "status": "success"
+  },
+  {
+    "id": 10120,
+    "storeId": 5000,
+    "amount": 16.51,
+    "timestamp": 20240117111400,
+    "status": "failed"
+  },
+  {
+    "id": 10121,
+    "storeId": 5002,
+    "amount": 17.07,
+    "timestamp": 20240422103447,
+    "status": "failed"
+  },
+  {
+    "id": 10122,
+    "storeId": 5002,
+    "amount": 11.84,
+    "timestamp": 20240731100620,
+    "status": "success"
+  },
+  {
+    "id": 10123,
+    "storeId": 5000,
+    "amount": 14.64,
+    "timestamp": 20240614082213,
+    "status": "failed"
+  },
+  {
+    "id": 10124,
+    "storeId": 5002,
+    "amount": 11.36,
+    "timestamp": 20241114020346,
+    "status": "success"
+  },
+  {
+    "id": 10125,
+    "storeId": 5004,
+    "amount": 10.89,
+    "timestamp": 20241120101854,
+    "status": "success"
+  },
+  {
+    "id": 10126,
+    "storeId": 5008,
+    "amount": 16.79,
+    "timestamp": 20240922062232,
+    "status": "success"
+  },
+  {
+    "id": 10127,
+    "storeId": 5001,
+    "amount": 13.16,
+    "timestamp": 20240522104406,
+    "status": "failed"
+  },
+  {
+    "id": 10128,
+    "storeId": 5008,
+    "amount": 12.52,
+    "timestamp": 20240527024227,
+    "status": "failed"
+  },
+  {
+    "id": 10129,
+    "storeId": 5010,
+    "amount": 10.45,
+    "timestamp": 20240102085311,
+    "status": "success"
+  },
+  {
+    "id": 10130,
+    "storeId": 5010,
+    "amount": 12.72,
+    "timestamp": 20241222114637,
+    "status": "failed"
+  },
+  {
+    "id": 10131,
+    "storeId": 5010,
+    "amount": 12.3,
+    "timestamp": 20240702051245,
+    "status": "failed"
+  },
+  {
+    "id": 10132,
+    "storeId": 5007,
+    "amount": 11.62,
+    "timestamp": 20240210101320,
+    "status": "success"
+  },
+  {
+    "id": 10133,
+    "storeId": 5010,
+    "amount": 12.73,
+    "timestamp": 20241101035817,
+    "status": "failed"
+  },
+  {
+    "id": 10134,
+    "storeId": 5002,
+    "amount": 16.88,
+    "timestamp": 20240226092756,
+    "status": "success"
+  },
+  {
+    "id": 10135,
+    "storeId": 5005,
+    "amount": 13.52,
+    "timestamp": 20241022040930,
+    "status": "success"
+  },
+  {
+    "id": 10136,
+    "storeId": 5010,
+    "amount": 16.89,
+    "timestamp": 20241102013319,
+    "status": "failed"
+  },
+  {
+    "id": 10137,
+    "storeId": 5004,
+    "amount": 17.43,
+    "timestamp": 20250112082039,
+    "status": "success"
+  },
+  {
+    "id": 10138,
+    "storeId": 5004,
+    "amount": 12.43,
+    "timestamp": 20240619092031,
+    "status": "failed"
+  },
+  {
+    "id": 10139,
+    "storeId": 5004,
+    "amount": 17.85,
+    "timestamp": 20240611094356,
+    "status": "failed"
+  },
+  {
+    "id": 10140,
+    "storeId": 5009,
+    "amount": 15.57,
+    "timestamp": 20241204110434,
+    "status": "failed"
+  },
+  {
+    "id": 10141,
+    "storeId": 5007,
+    "amount": 17.9,
+    "timestamp": 20240609032936,
+    "status": "failed"
+  },
+  {
+    "id": 10142,
+    "storeId": 5007,
+    "amount": 17.74,
+    "timestamp": 20240510100634,
+    "status": "success"
+  },
+  {
+    "id": 10143,
+    "storeId": 5003,
+    "amount": 15.42,
+    "timestamp": 20240613045104,
+    "status": "failed"
+  },
+  {
+    "id": 10144,
+    "storeId": 5002,
+    "amount": 14.85,
+    "timestamp": 20240610052644,
+    "status": "success"
+  },
+  {
+    "id": 10145,
+    "storeId": 5009,
+    "amount": 10.75,
+    "timestamp": 20240420115344,
+    "status": "failed"
+  },
+  {
+    "id": 10146,
+    "storeId": 5003,
+    "amount": 11.91,
+    "timestamp": 20240607052450,
+    "status": "success"
+  },
+  {
+    "id": 10147,
+    "storeId": 5007,
+    "amount": 10.29,
+    "timestamp": 20240310121450,
+    "status": "success"
+  },
+  {
+    "id": 10148,
+    "storeId": 5000,
+    "amount": 12.45,
+    "timestamp": 20240606013416,
+    "status": "success"
+  },
+  {
+    "id": 10149,
+    "storeId": 5010,
+    "amount": 18.89,
+    "timestamp": 20241007092259,
+    "status": "success"
+  },
+  {
+    "id": 10150,
+    "storeId": 5006,
+    "amount": 16.39,
+    "timestamp": 20240929111155,
+    "status": "failed"
+  },
+  {
+    "id": 10151,
+    "storeId": 5008,
+    "amount": 15.54,
+    "timestamp": 20240225015546,
+    "status": "success"
+  },
+  {
+    "id": 10152,
+    "storeId": 5009,
+    "amount": 17.02,
+    "timestamp": 20240117074626,
+    "status": "failed"
+  },
+  {
+    "id": 10153,
+    "storeId": 5007,
+    "amount": 16.89,
+    "timestamp": 20241110022216,
+    "status": "success"
+  },
+  {
+    "id": 10154,
+    "storeId": 5003,
+    "amount": 16,
+    "timestamp": 20240308044146,
+    "status": "failed"
+  },
+  {
+    "id": 10155,
+    "storeId": 5002,
+    "amount": 10.13,
+    "timestamp": 20241031061017,
+    "status": "success"
+  },
+  {
+    "id": 10156,
+    "storeId": 5007,
+    "amount": 17.17,
+    "timestamp": 20240828110039,
+    "status": "failed"
+  },
+  {
+    "id": 10157,
+    "storeId": 5009,
+    "amount": 16.31,
+    "timestamp": 20241003014255,
+    "status": "success"
+  },
+  {
+    "id": 10158,
+    "storeId": 5002,
+    "amount": 10.88,
+    "timestamp": 20241108085234,
+    "status": "success"
+  },
+  {
+    "id": 10159,
+    "storeId": 5003,
+    "amount": 13.04,
+    "timestamp": 20240210041749,
+    "status": "success"
+  },
+  {
+    "id": 10160,
+    "storeId": 5002,
+    "amount": 10.64,
+    "timestamp": 20240710030114,
+    "status": "failed"
+  },
+  {
+    "id": 10161,
+    "storeId": 5005,
+    "amount": 18.15,
+    "timestamp": 20240530092230,
+    "status": "success"
+  },
+  {
+    "id": 10162,
+    "storeId": 5000,
+    "amount": 11.54,
+    "timestamp": 20240301062459,
+    "status": "success"
+  },
+  {
+    "id": 10163,
+    "storeId": 5010,
+    "amount": 17.75,
+    "timestamp": 20240822073304,
+    "status": "success"
+  },
+  {
+    "id": 10164,
+    "storeId": 5010,
+    "amount": 16.76,
+    "timestamp": 20240308051448,
+    "status": "success"
+  },
+  {
+    "id": 10165,
+    "storeId": 5009,
+    "amount": 14.85,
+    "timestamp": 20241130052240,
+    "status": "success"
+  },
+  {
+    "id": 10166,
+    "storeId": 5007,
+    "amount": 14.56,
+    "timestamp": 20240604011552,
+    "status": "failed"
+  },
+  {
+    "id": 10167,
+    "storeId": 5008,
+    "amount": 13.61,
+    "timestamp": 20240825032737,
+    "status": "failed"
+  },
+  {
+    "id": 10168,
+    "storeId": 5005,
+    "amount": 16.59,
+    "timestamp": 20240602112719,
+    "status": "success"
+  },
+  {
+    "id": 10169,
+    "storeId": 5006,
+    "amount": 15.76,
+    "timestamp": 20240228011731,
+    "status": "success"
+  },
+  {
+    "id": 10170,
+    "storeId": 5000,
+    "amount": 11.52,
+    "timestamp": 20240320020830,
+    "status": "success"
+  },
+  {
+    "id": 10171,
+    "storeId": 5003,
+    "amount": 12.24,
+    "timestamp": 20240515050018,
+    "status": "success"
+  },
+  {
+    "id": 10172,
+    "storeId": 5008,
+    "amount": 10.39,
+    "timestamp": 20250110023052,
+    "status": "failed"
+  },
+  {
+    "id": 10173,
+    "storeId": 5009,
+    "amount": 15.31,
+    "timestamp": 20240722073552,
+    "status": "failed"
+  },
+  {
+    "id": 10174,
+    "storeId": 5002,
+    "amount": 10.5,
+    "timestamp": 20240718050953,
+    "status": "failed"
+  },
+  {
+    "id": 10175,
+    "storeId": 5006,
+    "amount": 13.57,
+    "timestamp": 20241105022229,
+    "status": "success"
+  },
+  {
+    "id": 10176,
+    "storeId": 5002,
+    "amount": 18.04,
+    "timestamp": 20240607011037,
+    "status": "success"
+  },
+  {
+    "id": 10177,
+    "storeId": 5005,
+    "amount": 17.33,
+    "timestamp": 20240128031249,
+    "status": "failed"
+  },
+  {
+    "id": 10178,
+    "storeId": 5005,
+    "amount": 17.43,
+    "timestamp": 20241206015053,
+    "status": "success"
+  },
+  {
+    "id": 10179,
+    "storeId": 5005,
+    "amount": 19.04,
+    "timestamp": 20240925021141,
+    "status": "failed"
+  },
+  {
+    "id": 10180,
+    "storeId": 5004,
+    "amount": 15.38,
+    "timestamp": 20240802070051,
+    "status": "failed"
+  },
+  {
+    "id": 10181,
+    "storeId": 5004,
+    "amount": 15.8,
+    "timestamp": 20240118052731,
+    "status": "failed"
+  },
+  {
+    "id": 10182,
+    "storeId": 5010,
+    "amount": 14.54,
+    "timestamp": 20240521050750,
+    "status": "success"
+  },
+  {
+    "id": 10183,
+    "storeId": 5005,
+    "amount": 15.66,
+    "timestamp": 20240327121124,
+    "status": "success"
+  },
+  {
+    "id": 10184,
+    "storeId": 5010,
+    "amount": 17.66,
+    "timestamp": 20240627074502,
+    "status": "success"
+  },
+  {
+    "id": 10185,
+    "storeId": 5007,
+    "amount": 16.84,
+    "timestamp": 20241122042031,
+    "status": "failed"
+  },
+  {
+    "id": 10186,
+    "storeId": 5006,
+    "amount": 10.32,
+    "timestamp": 20250110061615,
+    "status": "failed"
+  },
+  {
+    "id": 10187,
+    "storeId": 5007,
+    "amount": 16.38,
+    "timestamp": 20240705115536,
+    "status": "failed"
+  },
+  {
+    "id": 10188,
+    "storeId": 5008,
+    "amount": 13.92,
+    "timestamp": 20240519065550,
+    "status": "success"
+  },
+  {
+    "id": 10189,
+    "storeId": 5006,
+    "amount": 14.46,
+    "timestamp": 20250112052044,
+    "status": "success"
+  },
+  {
+    "id": 10190,
+    "storeId": 5004,
+    "amount": 12.02,
+    "timestamp": 20241119044732,
+    "status": "failed"
+  },
+  {
+    "id": 10191,
+    "storeId": 5008,
+    "amount": 17.96,
+    "timestamp": 20240905083347,
+    "status": "failed"
+  },
+  {
+    "id": 10192,
+    "storeId": 5007,
+    "amount": 15.36,
+    "timestamp": 20241002074557,
+    "status": "failed"
+  },
+  {
+    "id": 10193,
+    "storeId": 5002,
+    "amount": 14.87,
+    "timestamp": 20241004064732,
+    "status": "failed"
+  },
+  {
+    "id": 10194,
+    "storeId": 5010,
+    "amount": 19.67,
+    "timestamp": 20240614033654,
+    "status": "failed"
+  },
+  {
+    "id": 10195,
+    "storeId": 5000,
+    "amount": 13.75,
+    "timestamp": 20240608124922,
+    "status": "success"
+  },
+  {
+    "id": 10196,
+    "storeId": 5001,
+    "amount": 18.82,
+    "timestamp": 20240607033028,
+    "status": "failed"
+  },
+  {
+    "id": 10197,
+    "storeId": 5003,
+    "amount": 18.95,
+    "timestamp": 20240308125947,
+    "status": "failed"
+  },
+  {
+    "id": 10198,
+    "storeId": 5005,
+    "amount": 11.37,
+    "timestamp": 20240811034240,
+    "status": "failed"
+  },
+  {
+    "id": 10199,
+    "storeId": 5008,
+    "amount": 14.1,
+    "timestamp": 20240620065708,
+    "status": "failed"
+  },
+  {
+    "id": 10200,
+    "storeId": 5008,
+    "amount": 16.73,
+    "timestamp": 20240711120946,
+    "status": "failed"
+  },
+  {
+    "id": 10201,
+    "storeId": 5006,
+    "amount": 11.29,
+    "timestamp": 20240614044808,
+    "status": "success"
+  },
+  {
+    "id": 10202,
+    "storeId": 5001,
+    "amount": 19.35,
+    "timestamp": 20241205052823,
+    "status": "failed"
+  },
+  {
+    "id": 10203,
+    "storeId": 5008,
+    "amount": 13.25,
+    "timestamp": 20240527052246,
+    "status": "failed"
+  },
+  {
+    "id": 10204,
+    "storeId": 5003,
+    "amount": 16.78,
+    "timestamp": 20240115014306,
+    "status": "failed"
+  },
+  {
+    "id": 10205,
+    "storeId": 5003,
+    "amount": 19.06,
+    "timestamp": 20240115082141,
+    "status": "failed"
+  },
+  {
+    "id": 10206,
+    "storeId": 5004,
+    "amount": 14.97,
+    "timestamp": 20240116070911,
+    "status": "success"
+  },
+  {
+    "id": 10207,
+    "storeId": 5010,
+    "amount": 13.5,
+    "timestamp": 20240208012348,
+    "status": "success"
+  },
+  {
+    "id": 10208,
+    "storeId": 5005,
+    "amount": 13.67,
+    "timestamp": 20240614124212,
+    "status": "success"
+  },
+  {
+    "id": 10209,
+    "storeId": 5001,
+    "amount": 17.3,
+    "timestamp": 20240522013527,
+    "status": "failed"
+  },
+  {
+    "id": 10210,
+    "storeId": 5001,
+    "amount": 15.04,
+    "timestamp": 20240715075403,
+    "status": "success"
+  },
+  {
+    "id": 10211,
+    "storeId": 5007,
+    "amount": 15.73,
+    "timestamp": 20241201052250,
+    "status": "success"
+  },
+  {
+    "id": 10212,
+    "storeId": 5009,
+    "amount": 19.47,
+    "timestamp": 20240912110754,
+    "status": "success"
+  },
+  {
+    "id": 10213,
+    "storeId": 5007,
+    "amount": 12.77,
+    "timestamp": 20241113062429,
+    "status": "success"
+  },
+  {
+    "id": 10214,
+    "storeId": 5006,
+    "amount": 16.94,
+    "timestamp": 20240724081849,
+    "status": "success"
+  },
+  {
+    "id": 10215,
+    "storeId": 5002,
+    "amount": 10.34,
+    "timestamp": 20240910084727,
+    "status": "failed"
+  },
+  {
+    "id": 10216,
+    "storeId": 5005,
+    "amount": 14.91,
+    "timestamp": 20240203015423,
+    "status": "failed"
+  },
+  {
+    "id": 10217,
+    "storeId": 5006,
+    "amount": 19.23,
+    "timestamp": 20240715035359,
+    "status": "failed"
+  },
+  {
+    "id": 10218,
+    "storeId": 5009,
+    "amount": 11.13,
+    "timestamp": 20250110034526,
+    "status": "failed"
+  },
+  {
+    "id": 10219,
+    "storeId": 5008,
+    "amount": 13.06,
+    "timestamp": 20250102061614,
+    "status": "success"
+  },
+  {
+    "id": 10220,
+    "storeId": 5010,
+    "amount": 18.53,
+    "timestamp": 20240203040846,
+    "status": "failed"
+  },
+  {
+    "id": 10221,
+    "storeId": 5001,
+    "amount": 13.35,
+    "timestamp": 20240824040305,
+    "status": "failed"
+  },
+  {
+    "id": 10222,
+    "storeId": 5001,
+    "amount": 15.95,
+    "timestamp": 20240706011758,
+    "status": "success"
+  },
+  {
+    "id": 10223,
+    "storeId": 5004,
+    "amount": 16.13,
+    "timestamp": 20240917121834,
+    "status": "failed"
+  },
+  {
+    "id": 10224,
+    "storeId": 5009,
+    "amount": 16.05,
+    "timestamp": 20240908083348,
+    "status": "success"
+  },
+  {
+    "id": 10225,
+    "storeId": 5006,
+    "amount": 15.17,
+    "timestamp": 20240311124842,
+    "status": "success"
+  },
+  {
+    "id": 10226,
+    "storeId": 5002,
+    "amount": 14.82,
+    "timestamp": 20240922030741,
+    "status": "success"
+  },
+  {
+    "id": 10227,
+    "storeId": 5003,
+    "amount": 12.73,
+    "timestamp": 20240206024107,
+    "status": "failed"
+  },
+  {
+    "id": 10228,
+    "storeId": 5001,
+    "amount": 19.26,
+    "timestamp": 20240117060156,
+    "status": "failed"
+  },
+  {
+    "id": 10229,
+    "storeId": 5009,
+    "amount": 11.99,
+    "timestamp": 20241202054847,
+    "status": "failed"
+  },
+  {
+    "id": 10230,
+    "storeId": 5008,
+    "amount": 11.5,
+    "timestamp": 20240113025246,
+    "status": "success"
+  },
+  {
+    "id": 10231,
+    "storeId": 5001,
+    "amount": 12.53,
+    "timestamp": 20240125053820,
+    "status": "failed"
+  },
+  {
+    "id": 10232,
+    "storeId": 5000,
+    "amount": 19.11,
+    "timestamp": 20240518121924,
+    "status": "success"
+  },
+  {
+    "id": 10233,
+    "storeId": 5008,
+    "amount": 19.97,
+    "timestamp": 20240120125046,
+    "status": "success"
+  },
+  {
+    "id": 10234,
+    "storeId": 5001,
+    "amount": 11.17,
+    "timestamp": 20240813020658,
+    "status": "success"
+  },
+  {
+    "id": 10235,
+    "storeId": 5004,
+    "amount": 16.74,
+    "timestamp": 20241002114121,
+    "status": "failed"
+  },
+  {
+    "id": 10236,
+    "storeId": 5001,
+    "amount": 18.63,
+    "timestamp": 20240122111431,
+    "status": "failed"
+  },
+  {
+    "id": 10237,
+    "storeId": 5006,
+    "amount": 14.73,
+    "timestamp": 20241117094123,
+    "status": "success"
+  },
+  {
+    "id": 10238,
+    "storeId": 5010,
+    "amount": 16.8,
+    "timestamp": 20241212050648,
+    "status": "success"
+  },
+  {
+    "id": 10239,
+    "storeId": 5003,
+    "amount": 16.78,
+    "timestamp": 20240731065826,
+    "status": "failed"
+  },
+  {
+    "id": 10240,
+    "storeId": 5004,
+    "amount": 10.64,
+    "timestamp": 20241209025307,
+    "status": "success"
+  },
+  {
+    "id": 10241,
+    "storeId": 5008,
+    "amount": 14.53,
+    "timestamp": 20240331112310,
+    "status": "failed"
+  },
+  {
+    "id": 10242,
+    "storeId": 5000,
+    "amount": 11.36,
+    "timestamp": 20240125052109,
+    "status": "success"
+  },
+  {
+    "id": 10243,
+    "storeId": 5001,
+    "amount": 14.59,
+    "timestamp": 20240323031855,
+    "status": "failed"
+  },
+  {
+    "id": 10244,
+    "storeId": 5006,
+    "amount": 13.6,
+    "timestamp": 20240609102239,
+    "status": "success"
+  },
+  {
+    "id": 10245,
+    "storeId": 5005,
+    "amount": 18.92,
+    "timestamp": 20240809063033,
+    "status": "success"
+  },
+  {
+    "id": 10246,
+    "storeId": 5002,
+    "amount": 16.21,
+    "timestamp": 20241013125956,
+    "status": "success"
+  },
+  {
+    "id": 10247,
+    "storeId": 5007,
+    "amount": 10.95,
+    "timestamp": 20241108121237,
+    "status": "success"
+  },
+  {
+    "id": 10248,
+    "storeId": 5004,
+    "amount": 19.74,
+    "timestamp": 20240803044727,
+    "status": "success"
+  },
+  {
+    "id": 10249,
+    "storeId": 5004,
+    "amount": 13.26,
+    "timestamp": 20240127115731,
+    "status": "success"
+  },
+  {
+    "id": 10250,
+    "storeId": 5005,
+    "amount": 17,
+    "timestamp": 20240117022050,
+    "status": "success"
+  },
+  {
+    "id": 10251,
+    "storeId": 5010,
+    "amount": 19.3,
+    "timestamp": 20240213071114,
+    "status": "failed"
+  },
+  {
+    "id": 10252,
+    "storeId": 5009,
+    "amount": 16.44,
+    "timestamp": 20240917024818,
+    "status": "failed"
+  },
+  {
+    "id": 10253,
+    "storeId": 5005,
+    "amount": 11.05,
+    "timestamp": 20240528073305,
+    "status": "failed"
+  },
+  {
+    "id": 10254,
+    "storeId": 5003,
+    "amount": 13.87,
+    "timestamp": 20240219011625,
+    "status": "failed"
+  },
+  {
+    "id": 10255,
+    "storeId": 5001,
+    "amount": 18.65,
+    "timestamp": 20240828081933,
+    "status": "success"
+  },
+  {
+    "id": 10256,
+    "storeId": 5010,
+    "amount": 19.91,
+    "timestamp": 20241229085356,
+    "status": "success"
+  },
+  {
+    "id": 10257,
+    "storeId": 5004,
+    "amount": 10.47,
+    "timestamp": 20241003115756,
+    "status": "success"
+  },
+  {
+    "id": 10258,
+    "storeId": 5005,
+    "amount": 13.7,
+    "timestamp": 20240304094838,
+    "status": "success"
+  },
+  {
+    "id": 10259,
+    "storeId": 5001,
+    "amount": 16.72,
+    "timestamp": 20240403010149,
+    "status": "success"
+  },
+  {
+    "id": 10260,
+    "storeId": 5004,
+    "amount": 18.26,
+    "timestamp": 20240528010144,
+    "status": "success"
+  },
+  {
+    "id": 10261,
+    "storeId": 5001,
+    "amount": 11.01,
+    "timestamp": 20240110101710,
+    "status": "success"
+  },
+  {
+    "id": 10262,
+    "storeId": 5000,
+    "amount": 17.73,
+    "timestamp": 20240111091241,
+    "status": "success"
+  },
+  {
+    "id": 10263,
+    "storeId": 5001,
+    "amount": 16.11,
+    "timestamp": 20241219113429,
+    "status": "success"
+  },
+  {
+    "id": 10264,
+    "storeId": 5003,
+    "amount": 14.73,
+    "timestamp": 20240515064216,
+    "status": "success"
+  },
+  {
+    "id": 10265,
+    "storeId": 5002,
+    "amount": 10.72,
+    "timestamp": 20240818021934,
+    "status": "failed"
+  },
+  {
+    "id": 10266,
+    "storeId": 5010,
+    "amount": 13.34,
+    "timestamp": 20240624023033,
+    "status": "success"
+  },
+  {
+    "id": 10267,
+    "storeId": 5010,
+    "amount": 15.3,
+    "timestamp": 20240125045400,
+    "status": "failed"
+  },
+  {
+    "id": 10268,
+    "storeId": 5003,
+    "amount": 13.85,
+    "timestamp": 20240416094420,
+    "status": "failed"
+  },
+  {
+    "id": 10269,
+    "storeId": 5008,
+    "amount": 16.56,
+    "timestamp": 20240603021113,
+    "status": "success"
+  },
+  {
+    "id": 10270,
+    "storeId": 5000,
+    "amount": 17.07,
+    "timestamp": 20241126023508,
+    "status": "failed"
+  },
+  {
+    "id": 10271,
+    "storeId": 5002,
+    "amount": 14.04,
+    "timestamp": 20240729040516,
+    "status": "failed"
+  },
+  {
+    "id": 10272,
+    "storeId": 5001,
+    "amount": 13.89,
+    "timestamp": 20240826095204,
+    "status": "failed"
+  },
+  {
+    "id": 10273,
+    "storeId": 5006,
+    "amount": 13.92,
+    "timestamp": 20240407125105,
+    "status": "failed"
+  },
+  {
+    "id": 10274,
+    "storeId": 5005,
+    "amount": 18.88,
+    "timestamp": 20240819070256,
+    "status": "success"
+  },
+  {
+    "id": 10275,
+    "storeId": 5003,
+    "amount": 18.24,
+    "timestamp": 20240103053222,
+    "status": "failed"
+  },
+  {
+    "id": 10276,
+    "storeId": 5004,
+    "amount": 12.62,
+    "timestamp": 20240406085411,
+    "status": "failed"
+  },
+  {
+    "id": 10277,
+    "storeId": 5002,
+    "amount": 15.19,
+    "timestamp": 20240331115548,
+    "status": "success"
+  },
+  {
+    "id": 10278,
+    "storeId": 5003,
+    "amount": 16.74,
+    "timestamp": 20240810024856,
+    "status": "success"
+  },
+  {
+    "id": 10279,
+    "storeId": 5009,
+    "amount": 19.65,
+    "timestamp": 20240921105923,
+    "status": "failed"
+  },
+  {
+    "id": 10280,
+    "storeId": 5001,
+    "amount": 13.62,
+    "timestamp": 20240601043432,
+    "status": "failed"
+  },
+  {
+    "id": 10281,
+    "storeId": 5009,
+    "amount": 12.61,
+    "timestamp": 20240731093808,
+    "status": "failed"
+  },
+  {
+    "id": 10282,
+    "storeId": 5008,
+    "amount": 19.85,
+    "timestamp": 20240202023539,
+    "status": "success"
+  },
+  {
+    "id": 10283,
+    "storeId": 5007,
+    "amount": 12.62,
+    "timestamp": 20250105123436,
+    "status": "failed"
+  },
+  {
+    "id": 10284,
+    "storeId": 5007,
+    "amount": 12.76,
+    "timestamp": 20240216055450,
+    "status": "success"
+  },
+  {
+    "id": 10285,
+    "storeId": 5000,
+    "amount": 16.15,
+    "timestamp": 20240312031945,
+    "status": "success"
+  },
+  {
+    "id": 10286,
+    "storeId": 5006,
+    "amount": 14.5,
+    "timestamp": 20240219081933,
+    "status": "failed"
+  },
+  {
+    "id": 10287,
+    "storeId": 5002,
+    "amount": 14.39,
+    "timestamp": 20241110111442,
+    "status": "failed"
+  },
+  {
+    "id": 10288,
+    "storeId": 5010,
+    "amount": 18.85,
+    "timestamp": 20240409065630,
+    "status": "failed"
+  },
+  {
+    "id": 10289,
+    "storeId": 5000,
+    "amount": 14.21,
+    "timestamp": 20240313103513,
+    "status": "failed"
+  },
+  {
+    "id": 10290,
+    "storeId": 5000,
+    "amount": 17.83,
+    "timestamp": 20250105011145,
+    "status": "failed"
+  },
+  {
+    "id": 10291,
+    "storeId": 5007,
+    "amount": 18.98,
+    "timestamp": 20241101110459,
+    "status": "success"
+  },
+  {
+    "id": 10292,
+    "storeId": 5003,
+    "amount": 10.62,
+    "timestamp": 20240521095406,
+    "status": "failed"
+  },
+  {
+    "id": 10293,
+    "storeId": 5009,
+    "amount": 16.8,
+    "timestamp": 20240109111354,
+    "status": "failed"
+  },
+  {
+    "id": 10294,
+    "storeId": 5008,
+    "amount": 19.97,
+    "timestamp": 20240119121751,
+    "status": "failed"
+  },
+  {
+    "id": 10295,
+    "storeId": 5001,
+    "amount": 18.98,
+    "timestamp": 20240827123800,
+    "status": "failed"
+  },
+  {
+    "id": 10296,
+    "storeId": 5001,
+    "amount": 19.48,
+    "timestamp": 20240316062435,
+    "status": "failed"
+  },
+  {
+    "id": 10297,
+    "storeId": 5010,
+    "amount": 15.39,
+    "timestamp": 20240705120854,
+    "status": "failed"
+  },
+  {
+    "id": 10298,
+    "storeId": 5006,
+    "amount": 12.15,
+    "timestamp": 20240625044212,
+    "status": "failed"
+  },
+  {
+    "id": 10299,
+    "storeId": 5006,
+    "amount": 11.12,
+    "timestamp": 20241119112209,
+    "status": "success"
+  },
+  {
+    "id": 10300,
+    "storeId": 5005,
+    "amount": 13.56,
+    "timestamp": 20240331060221,
+    "status": "failed"
+  },
+  {
+    "id": 10301,
+    "storeId": 5004,
+    "amount": 15.31,
+    "timestamp": 20240421075003,
+    "status": "failed"
+  },
+  {
+    "id": 10302,
+    "storeId": 5008,
+    "amount": 18.78,
+    "timestamp": 20240127064351,
+    "status": "success"
+  },
+  {
+    "id": 10303,
+    "storeId": 5004,
+    "amount": 10.15,
+    "timestamp": 20241224090633,
+    "status": "failed"
+  },
+  {
+    "id": 10304,
+    "storeId": 5001,
+    "amount": 18.8,
+    "timestamp": 20240516061655,
+    "status": "success"
+  },
+  {
+    "id": 10305,
+    "storeId": 5003,
+    "amount": 19.12,
+    "timestamp": 20240926104225,
+    "status": "failed"
+  },
+  {
+    "id": 10306,
+    "storeId": 5006,
+    "amount": 16.61,
+    "timestamp": 20241029115236,
+    "status": "success"
+  },
+  {
+    "id": 10307,
+    "storeId": 5002,
+    "amount": 11.52,
+    "timestamp": 20240114122149,
+    "status": "success"
+  },
+  {
+    "id": 10308,
+    "storeId": 5002,
+    "amount": 15.38,
+    "timestamp": 20240929123143,
+    "status": "success"
+  },
+  {
+    "id": 10309,
+    "storeId": 5009,
+    "amount": 14.31,
+    "timestamp": 20240207100406,
+    "status": "success"
+  },
+  {
+    "id": 10310,
+    "storeId": 5009,
+    "amount": 17.28,
+    "timestamp": 20241104123207,
+    "status": "failed"
+  },
+  {
+    "id": 10311,
+    "storeId": 5008,
+    "amount": 12.9,
+    "timestamp": 20240926035512,
+    "status": "failed"
+  },
+  {
+    "id": 10312,
+    "storeId": 5003,
+    "amount": 11.1,
+    "timestamp": 20241219014944,
+    "status": "failed"
+  },
+  {
+    "id": 10313,
+    "storeId": 5007,
+    "amount": 12.59,
+    "timestamp": 20241118040714,
+    "status": "success"
+  },
+  {
+    "id": 10314,
+    "storeId": 5003,
+    "amount": 14.88,
+    "timestamp": 20240628052454,
+    "status": "failed"
+  },
+  {
+    "id": 10315,
+    "storeId": 5001,
+    "amount": 12.34,
+    "timestamp": 20240329030510,
+    "status": "failed"
+  },
+  {
+    "id": 10316,
+    "storeId": 5001,
+    "amount": 18.75,
+    "timestamp": 20241221043923,
+    "status": "failed"
+  },
+  {
+    "id": 10317,
+    "storeId": 5007,
+    "amount": 12.4,
+    "timestamp": 20241001070922,
+    "status": "failed"
+  },
+  {
+    "id": 10318,
+    "storeId": 5004,
+    "amount": 16.86,
+    "timestamp": 20240318022828,
+    "status": "success"
+  },
+  {
+    "id": 10319,
+    "storeId": 5007,
+    "amount": 15.73,
+    "timestamp": 20240330091604,
+    "status": "failed"
+  },
+  {
+    "id": 10320,
+    "storeId": 5009,
+    "amount": 11.02,
+    "timestamp": 20241229085013,
+    "status": "success"
+  },
+  {
+    "id": 10321,
+    "storeId": 5003,
+    "amount": 10.99,
+    "timestamp": 20240630054014,
+    "status": "success"
+  },
+  {
+    "id": 10322,
+    "storeId": 5003,
+    "amount": 19.59,
+    "timestamp": 20240924070602,
+    "status": "success"
+  },
+  {
+    "id": 10323,
+    "storeId": 5007,
+    "amount": 10.8,
+    "timestamp": 20250113025454,
+    "status": "failed"
+  },
+  {
+    "id": 10324,
+    "storeId": 5001,
+    "amount": 16.87,
+    "timestamp": 20240914043945,
+    "status": "success"
+  },
+  {
+    "id": 10325,
+    "storeId": 5008,
+    "amount": 12.17,
+    "timestamp": 20240611061553,
+    "status": "success"
+  },
+  {
+    "id": 10326,
+    "storeId": 5004,
+    "amount": 10.51,
+    "timestamp": 20240427103445,
+    "status": "success"
+  },
+  {
+    "id": 10327,
+    "storeId": 5004,
+    "amount": 11.96,
+    "timestamp": 20240311033143,
+    "status": "success"
+  },
+  {
+    "id": 10328,
+    "storeId": 5010,
+    "amount": 13.24,
+    "timestamp": 20241118072425,
+    "status": "success"
+  },
+  {
+    "id": 10329,
+    "storeId": 5006,
+    "amount": 18.66,
+    "timestamp": 20240602055212,
+    "status": "failed"
+  },
+  {
+    "id": 10330,
+    "storeId": 5008,
+    "amount": 10.08,
+    "timestamp": 20240827013919,
+    "status": "failed"
+  },
+  {
+    "id": 10331,
+    "storeId": 5001,
+    "amount": 12.68,
+    "timestamp": 20240410021218,
+    "status": "failed"
+  },
+  {
+    "id": 10332,
+    "storeId": 5009,
+    "amount": 16.75,
+    "timestamp": 20240701112840,
+    "status": "failed"
+  },
+  {
+    "id": 10333,
+    "storeId": 5009,
+    "amount": 19.67,
+    "timestamp": 20240530021752,
+    "status": "success"
+  },
+  {
+    "id": 10334,
+    "storeId": 5001,
+    "amount": 18.04,
+    "timestamp": 20241002034635,
+    "status": "failed"
+  },
+  {
+    "id": 10335,
+    "storeId": 5007,
+    "amount": 11.07,
+    "timestamp": 20240815035356,
+    "status": "failed"
+  },
+  {
+    "id": 10336,
+    "storeId": 5010,
+    "amount": 19.38,
+    "timestamp": 20240119095024,
+    "status": "failed"
+  },
+  {
+    "id": 10337,
+    "storeId": 5009,
+    "amount": 14.69,
+    "timestamp": 20240723112620,
+    "status": "failed"
+  },
+  {
+    "id": 10338,
+    "storeId": 5007,
+    "amount": 17.52,
+    "timestamp": 20240205120810,
+    "status": "success"
+  },
+  {
+    "id": 10339,
+    "storeId": 5009,
+    "amount": 19.69,
+    "timestamp": 20240714022731,
+    "status": "failed"
+  },
+  {
+    "id": 10340,
+    "storeId": 5008,
+    "amount": 13.76,
+    "timestamp": 20240305074030,
+    "status": "success"
+  },
+  {
+    "id": 10341,
+    "storeId": 5002,
+    "amount": 19.9,
+    "timestamp": 20241211084802,
+    "status": "success"
+  },
+  {
+    "id": 10342,
+    "storeId": 5007,
+    "amount": 14.01,
+    "timestamp": 20240926091434,
+    "status": "failed"
+  },
+  {
+    "id": 10343,
+    "storeId": 5007,
+    "amount": 14.56,
+    "timestamp": 20240212044135,
+    "status": "failed"
+  },
+  {
+    "id": 10344,
+    "storeId": 5004,
+    "amount": 11.38,
+    "timestamp": 20240722091642,
+    "status": "failed"
+  },
+  {
+    "id": 10345,
+    "storeId": 5005,
+    "amount": 10.35,
+    "timestamp": 20240511010334,
+    "status": "failed"
+  },
+  {
+    "id": 10346,
+    "storeId": 5008,
+    "amount": 19.57,
+    "timestamp": 20240505112449,
+    "status": "failed"
+  },
+  {
+    "id": 10347,
+    "storeId": 5006,
+    "amount": 11.55,
+    "timestamp": 20240630113506,
+    "status": "failed"
+  },
+  {
+    "id": 10348,
+    "storeId": 5010,
+    "amount": 15.78,
+    "timestamp": 20240515025449,
+    "status": "failed"
+  },
+  {
+    "id": 10349,
+    "storeId": 5001,
+    "amount": 15.26,
+    "timestamp": 20240225055826,
+    "status": "failed"
+  },
+  {
+    "id": 10350,
+    "storeId": 5000,
+    "amount": 12.97,
+    "timestamp": 20240618045423,
+    "status": "success"
+  },
+  {
+    "id": 10351,
+    "storeId": 5008,
+    "amount": 11.81,
+    "timestamp": 20240302112650,
+    "status": "failed"
+  },
+  {
+    "id": 10352,
+    "storeId": 5005,
+    "amount": 17.75,
+    "timestamp": 20240930010409,
+    "status": "success"
+  },
+  {
+    "id": 10353,
+    "storeId": 5007,
+    "amount": 18.79,
+    "timestamp": 20240819125453,
+    "status": "success"
+  },
+  {
+    "id": 10354,
+    "storeId": 5002,
+    "amount": 12.71,
+    "timestamp": 20241210080117,
+    "status": "success"
+  },
+  {
+    "id": 10355,
+    "storeId": 5002,
+    "amount": 15.35,
+    "timestamp": 20240709074913,
+    "status": "failed"
+  },
+  {
+    "id": 10356,
+    "storeId": 5004,
+    "amount": 18.92,
+    "timestamp": 20240113075950,
+    "status": "failed"
+  },
+  {
+    "id": 10357,
+    "storeId": 5002,
+    "amount": 18.12,
+    "timestamp": 20240301103638,
+    "status": "failed"
+  },
+  {
+    "id": 10358,
+    "storeId": 5007,
+    "amount": 17.42,
+    "timestamp": 20240602122512,
+    "status": "success"
+  },
+  {
+    "id": 10359,
+    "storeId": 5001,
+    "amount": 18.96,
+    "timestamp": 20241129101035,
+    "status": "success"
+  },
+  {
+    "id": 10360,
+    "storeId": 5003,
+    "amount": 18.54,
+    "timestamp": 20240609110249,
+    "status": "success"
+  },
+  {
+    "id": 10361,
+    "storeId": 5003,
+    "amount": 16.41,
+    "timestamp": 20240115045707,
+    "status": "success"
+  },
+  {
+    "id": 10362,
+    "storeId": 5010,
+    "amount": 11.31,
+    "timestamp": 20240605051501,
+    "status": "failed"
+  },
+  {
+    "id": 10363,
+    "storeId": 5006,
+    "amount": 14.5,
+    "timestamp": 20240818095739,
+    "status": "success"
+  },
+  {
+    "id": 10364,
+    "storeId": 5001,
+    "amount": 10.94,
+    "timestamp": 20241020020004,
+    "status": "failed"
+  },
+  {
+    "id": 10365,
+    "storeId": 5009,
+    "amount": 18.25,
+    "timestamp": 20240113105933,
+    "status": "success"
+  },
+  {
+    "id": 10366,
+    "storeId": 5005,
+    "amount": 18.66,
+    "timestamp": 20241017025706,
+    "status": "failed"
+  },
+  {
+    "id": 10367,
+    "storeId": 5000,
+    "amount": 18.22,
+    "timestamp": 20241101100326,
+    "status": "failed"
+  },
+  {
+    "id": 10368,
+    "storeId": 5008,
+    "amount": 17.11,
+    "timestamp": 20240920013557,
+    "status": "success"
+  },
+  {
+    "id": 10369,
+    "storeId": 5002,
+    "amount": 16.86,
+    "timestamp": 20240629055550,
+    "status": "failed"
+  },
+  {
+    "id": 10370,
+    "storeId": 5004,
+    "amount": 14.39,
+    "timestamp": 20240116034220,
+    "status": "failed"
+  },
+  {
+    "id": 10371,
+    "storeId": 5010,
+    "amount": 15.81,
+    "timestamp": 20240219081630,
+    "status": "failed"
+  },
+  {
+    "id": 10372,
+    "storeId": 5002,
+    "amount": 12.9,
+    "timestamp": 20240405063210,
+    "status": "failed"
+  },
+  {
+    "id": 10373,
+    "storeId": 5003,
+    "amount": 15.44,
+    "timestamp": 20240728074800,
+    "status": "failed"
+  },
+  {
+    "id": 10374,
+    "storeId": 5007,
+    "amount": 16.44,
+    "timestamp": 20241205052042,
+    "status": "success"
+  },
+  {
+    "id": 10375,
+    "storeId": 5003,
+    "amount": 15.37,
+    "timestamp": 20241112032351,
+    "status": "failed"
+  },
+  {
+    "id": 10376,
+    "storeId": 5003,
+    "amount": 14.92,
+    "timestamp": 20240728022401,
+    "status": "failed"
+  },
+  {
+    "id": 10377,
+    "storeId": 5001,
+    "amount": 18.13,
+    "timestamp": 20240314030446,
+    "status": "failed"
+  },
+  {
+    "id": 10378,
+    "storeId": 5000,
+    "amount": 10.4,
+    "timestamp": 20241225043528,
+    "status": "success"
+  },
+  {
+    "id": 10379,
+    "storeId": 5010,
+    "amount": 16.77,
+    "timestamp": 20240525030434,
+    "status": "failed"
+  },
+  {
+    "id": 10380,
+    "storeId": 5008,
+    "amount": 12.49,
+    "timestamp": 20240521053843,
+    "status": "success"
+  },
+  {
+    "id": 10381,
+    "storeId": 5005,
+    "amount": 11.19,
+    "timestamp": 20240607041018,
+    "status": "failed"
+  },
+  {
+    "id": 10382,
+    "storeId": 5003,
+    "amount": 10.2,
+    "timestamp": 20240908040324,
+    "status": "failed"
+  },
+  {
+    "id": 10383,
+    "storeId": 5009,
+    "amount": 17.86,
+    "timestamp": 20240906024531,
+    "status": "failed"
+  },
+  {
+    "id": 10384,
+    "storeId": 5009,
+    "amount": 16.03,
+    "timestamp": 20241122070258,
+    "status": "success"
+  },
+  {
+    "id": 10385,
+    "storeId": 5002,
+    "amount": 12.16,
+    "timestamp": 20240210084818,
+    "status": "failed"
+  },
+  {
+    "id": 10386,
+    "storeId": 5004,
+    "amount": 10.71,
+    "timestamp": 20240716123314,
+    "status": "failed"
+  },
+  {
+    "id": 10387,
+    "storeId": 5000,
+    "amount": 19.28,
+    "timestamp": 20241201062319,
+    "status": "success"
+  },
+  {
+    "id": 10388,
+    "storeId": 5000,
+    "amount": 14.78,
+    "timestamp": 20240514053402,
+    "status": "failed"
+  },
+  {
+    "id": 10389,
+    "storeId": 5001,
+    "amount": 11.92,
+    "timestamp": 20240417045752,
+    "status": "success"
+  },
+  {
+    "id": 10390,
+    "storeId": 5004,
+    "amount": 10.83,
+    "timestamp": 20240125041059,
+    "status": "failed"
+  },
+  {
+    "id": 10391,
+    "storeId": 5005,
+    "amount": 11.67,
+    "timestamp": 20240819093507,
+    "status": "success"
+  },
+  {
+    "id": 10392,
+    "storeId": 5000,
+    "amount": 10.49,
+    "timestamp": 20240213014612,
+    "status": "success"
+  },
+  {
+    "id": 10393,
+    "storeId": 5000,
+    "amount": 15.08,
+    "timestamp": 20240622124617,
+    "status": "success"
+  },
+  {
+    "id": 10394,
+    "storeId": 5007,
+    "amount": 12.18,
+    "timestamp": 20241016112414,
+    "status": "success"
+  },
+  {
+    "id": 10395,
+    "storeId": 5008,
+    "amount": 11.05,
+    "timestamp": 20240408064626,
+    "status": "failed"
+  },
+  {
+    "id": 10396,
+    "storeId": 5010,
+    "amount": 19.93,
+    "timestamp": 20240506094926,
+    "status": "success"
+  },
+  {
+    "id": 10397,
+    "storeId": 5002,
+    "amount": 16.87,
+    "timestamp": 20240601111126,
+    "status": "success"
+  },
+  {
+    "id": 10398,
+    "storeId": 5003,
+    "amount": 14.98,
+    "timestamp": 20240808044341,
+    "status": "success"
+  },
+  {
+    "id": 10399,
+    "storeId": 5007,
+    "amount": 14.72,
+    "timestamp": 20240428042950,
+    "status": "success"
+  },
+  {
+    "id": 10400,
+    "storeId": 5010,
+    "amount": 15.5,
+    "timestamp": 20241018053449,
+    "status": "success"
+  },
+  {
+    "id": 10401,
+    "storeId": 5004,
+    "amount": 16.82,
+    "timestamp": 20241201083300,
+    "status": "success"
+  },
+  {
+    "id": 10402,
+    "storeId": 5009,
+    "amount": 13.01,
+    "timestamp": 20240601034812,
+    "status": "failed"
+  },
+  {
+    "id": 10403,
+    "storeId": 5009,
+    "amount": 13.47,
+    "timestamp": 20240812065324,
+    "status": "failed"
+  },
+  {
+    "id": 10404,
+    "storeId": 5003,
+    "amount": 13.53,
+    "timestamp": 20240529085156,
+    "status": "failed"
+  },
+  {
+    "id": 10405,
+    "storeId": 5003,
+    "amount": 11.14,
+    "timestamp": 20241121035111,
+    "status": "success"
+  },
+  {
+    "id": 10406,
+    "storeId": 5009,
+    "amount": 12.03,
+    "timestamp": 20240405044035,
+    "status": "success"
+  },
+  {
+    "id": 10407,
+    "storeId": 5001,
+    "amount": 14.91,
+    "timestamp": 20241222043253,
+    "status": "failed"
+  },
+  {
+    "id": 10408,
+    "storeId": 5000,
+    "amount": 11.26,
+    "timestamp": 20240308080548,
+    "status": "failed"
+  },
+  {
+    "id": 10409,
+    "storeId": 5002,
+    "amount": 11.11,
+    "timestamp": 20240315031946,
+    "status": "failed"
+  },
+  {
+    "id": 10410,
+    "storeId": 5001,
+    "amount": 19.83,
+    "timestamp": 20240714054219,
+    "status": "failed"
+  },
+  {
+    "id": 10411,
+    "storeId": 5009,
+    "amount": 16.12,
+    "timestamp": 20240719115815,
+    "status": "success"
+  },
+  {
+    "id": 10412,
+    "storeId": 5009,
+    "amount": 19.11,
+    "timestamp": 20240430014815,
+    "status": "success"
+  },
+  {
+    "id": 10413,
+    "storeId": 5006,
+    "amount": 14.29,
+    "timestamp": 20240913111256,
+    "status": "success"
+  },
+  {
+    "id": 10414,
+    "storeId": 5009,
+    "amount": 17.69,
+    "timestamp": 20240408062322,
+    "status": "success"
+  },
+  {
+    "id": 10415,
+    "storeId": 5006,
+    "amount": 13.17,
+    "timestamp": 20240229045058,
+    "status": "failed"
+  },
+  {
+    "id": 10416,
+    "storeId": 5001,
+    "amount": 19.05,
+    "timestamp": 20240425035642,
+    "status": "failed"
+  },
+  {
+    "id": 10417,
+    "storeId": 5006,
+    "amount": 14.03,
+    "timestamp": 20241107121949,
+    "status": "failed"
+  },
+  {
+    "id": 10418,
+    "storeId": 5007,
+    "amount": 14.73,
+    "timestamp": 20241205094545,
+    "status": "success"
+  },
+  {
+    "id": 10419,
+    "storeId": 5005,
+    "amount": 12.97,
+    "timestamp": 20240712123405,
+    "status": "failed"
+  },
+  {
+    "id": 10420,
+    "storeId": 5004,
+    "amount": 15.23,
+    "timestamp": 20240823115554,
+    "status": "failed"
+  },
+  {
+    "id": 10421,
+    "storeId": 5010,
+    "amount": 17.51,
+    "timestamp": 20240809031733,
+    "status": "success"
+  },
+  {
+    "id": 10422,
+    "storeId": 5007,
+    "amount": 19.33,
+    "timestamp": 20240108073221,
+    "status": "failed"
+  },
+  {
+    "id": 10423,
+    "storeId": 5010,
+    "amount": 19.47,
+    "timestamp": 20240125090132,
+    "status": "success"
+  },
+  {
+    "id": 10424,
+    "storeId": 5008,
+    "amount": 12.01,
+    "timestamp": 20241103081729,
+    "status": "failed"
+  },
+  {
+    "id": 10425,
+    "storeId": 5007,
+    "amount": 17.45,
+    "timestamp": 20240511051700,
+    "status": "failed"
+  },
+  {
+    "id": 10426,
+    "storeId": 5002,
+    "amount": 13.44,
+    "timestamp": 20240807083018,
+    "status": "success"
+  },
+  {
+    "id": 10427,
+    "storeId": 5003,
+    "amount": 17.43,
+    "timestamp": 20241229100024,
+    "status": "success"
+  },
+  {
+    "id": 10428,
+    "storeId": 5001,
+    "amount": 16.52,
+    "timestamp": 20240818040624,
+    "status": "success"
+  },
+  {
+    "id": 10429,
+    "storeId": 5007,
+    "amount": 10.04,
+    "timestamp": 20240921094448,
+    "status": "failed"
+  },
+  {
+    "id": 10430,
+    "storeId": 5001,
+    "amount": 13.83,
+    "timestamp": 20241223060845,
+    "status": "failed"
+  },
+  {
+    "id": 10431,
+    "storeId": 5008,
+    "amount": 17.29,
+    "timestamp": 20240216114821,
+    "status": "failed"
+  },
+  {
+    "id": 10432,
+    "storeId": 5010,
+    "amount": 11.39,
+    "timestamp": 20240717041955,
+    "status": "failed"
+  },
+  {
+    "id": 10433,
+    "storeId": 5007,
+    "amount": 16.02,
+    "timestamp": 20240814031423,
+    "status": "success"
+  },
+  {
+    "id": 10434,
+    "storeId": 5003,
+    "amount": 17.61,
+    "timestamp": 20240504092046,
+    "status": "failed"
+  },
+  {
+    "id": 10435,
+    "storeId": 5009,
+    "amount": 10.94,
+    "timestamp": 20240804124204,
+    "status": "failed"
+  },
+  {
+    "id": 10436,
+    "storeId": 5007,
+    "amount": 12.37,
+    "timestamp": 20241115040328,
+    "status": "failed"
+  },
+  {
+    "id": 10437,
+    "storeId": 5003,
+    "amount": 18.29,
+    "timestamp": 20240522093911,
+    "status": "success"
+  },
+  {
+    "id": 10438,
+    "storeId": 5005,
+    "amount": 17.48,
+    "timestamp": 20240830113024,
+    "status": "success"
+  },
+  {
+    "id": 10439,
+    "storeId": 5000,
+    "amount": 10.64,
+    "timestamp": 20240604060813,
+    "status": "success"
+  },
+  {
+    "id": 10440,
+    "storeId": 5007,
+    "amount": 14.17,
+    "timestamp": 20240115100411,
+    "status": "failed"
+  },
+  {
+    "id": 10441,
+    "storeId": 5005,
+    "amount": 11.45,
+    "timestamp": 20241019064007,
+    "status": "success"
+  },
+  {
+    "id": 10442,
+    "storeId": 5008,
+    "amount": 12.9,
+    "timestamp": 20240425094000,
+    "status": "success"
+  },
+  {
+    "id": 10443,
+    "storeId": 5005,
+    "amount": 13.81,
+    "timestamp": 20240504025717,
+    "status": "failed"
+  },
+  {
+    "id": 10444,
+    "storeId": 5000,
+    "amount": 11.35,
+    "timestamp": 20241115112341,
+    "status": "failed"
+  },
+  {
+    "id": 10445,
+    "storeId": 5004,
+    "amount": 11.43,
+    "timestamp": 20240316111322,
+    "status": "success"
+  },
+  {
+    "id": 10446,
+    "storeId": 5003,
+    "amount": 15.27,
+    "timestamp": 20240214112141,
+    "status": "failed"
+  },
+  {
+    "id": 10447,
+    "storeId": 5001,
+    "amount": 13.74,
+    "timestamp": 20240815112609,
+    "status": "failed"
+  },
+  {
+    "id": 10448,
+    "storeId": 5005,
+    "amount": 18.44,
+    "timestamp": 20240620015330,
+    "status": "failed"
+  },
+  {
+    "id": 10449,
+    "storeId": 5006,
+    "amount": 12.64,
+    "timestamp": 20240215100805,
+    "status": "success"
+  },
+  {
+    "id": 10450,
+    "storeId": 5006,
+    "amount": 13.79,
+    "timestamp": 20240702035705,
+    "status": "failed"
+  },
+  {
+    "id": 10451,
+    "storeId": 5005,
+    "amount": 18.22,
+    "timestamp": 20240326115527,
+    "status": "success"
+  },
+  {
+    "id": 10452,
+    "storeId": 5007,
+    "amount": 11.46,
+    "timestamp": 20241109081920,
+    "status": "success"
+  },
+  {
+    "id": 10453,
+    "storeId": 5001,
+    "amount": 10.44,
+    "timestamp": 20240711035908,
+    "status": "success"
+  },
+  {
+    "id": 10454,
+    "storeId": 5003,
+    "amount": 12.95,
+    "timestamp": 20241110123423,
+    "status": "failed"
+  },
+  {
+    "id": 10455,
+    "storeId": 5006,
+    "amount": 14.64,
+    "timestamp": 20240801024052,
+    "status": "failed"
+  },
+  {
+    "id": 10456,
+    "storeId": 5002,
+    "amount": 15.7,
+    "timestamp": 20241218121820,
+    "status": "failed"
+  },
+  {
+    "id": 10457,
+    "storeId": 5010,
+    "amount": 16.38,
+    "timestamp": 20240729090713,
+    "status": "failed"
+  },
+  {
+    "id": 10458,
+    "storeId": 5002,
+    "amount": 11.41,
+    "timestamp": 20241211013926,
+    "status": "success"
+  },
+  {
+    "id": 10459,
+    "storeId": 5007,
+    "amount": 14.99,
+    "timestamp": 20240630025516,
+    "status": "failed"
+  },
+  {
+    "id": 10460,
+    "storeId": 5002,
+    "amount": 10.69,
+    "timestamp": 20240816064529,
+    "status": "success"
+  },
+  {
+    "id": 10461,
+    "storeId": 5000,
+    "amount": 18.56,
+    "timestamp": 20240203103811,
+    "status": "success"
+  },
+  {
+    "id": 10462,
+    "storeId": 5005,
+    "amount": 15.25,
+    "timestamp": 20240905032949,
+    "status": "failed"
+  },
+  {
+    "id": 10463,
+    "storeId": 5004,
+    "amount": 16.67,
+    "timestamp": 20240911090814,
+    "status": "success"
+  },
+  {
+    "id": 10464,
+    "storeId": 5001,
+    "amount": 15.94,
+    "timestamp": 20240113034312,
+    "status": "success"
+  },
+  {
+    "id": 10465,
+    "storeId": 5005,
+    "amount": 11.95,
+    "timestamp": 20241026101111,
+    "status": "success"
+  },
+  {
+    "id": 10466,
+    "storeId": 5003,
+    "amount": 15.27,
+    "timestamp": 20240216073749,
+    "status": "success"
+  },
+  {
+    "id": 10467,
+    "storeId": 5008,
+    "amount": 14.26,
+    "timestamp": 20240601041717,
+    "status": "failed"
+  },
+  {
+    "id": 10468,
+    "storeId": 5006,
+    "amount": 12.66,
+    "timestamp": 20240402025905,
+    "status": "success"
+  },
+  {
+    "id": 10469,
+    "storeId": 5006,
+    "amount": 16.08,
+    "timestamp": 20240721022711,
+    "status": "failed"
+  },
+  {
+    "id": 10470,
+    "storeId": 5002,
+    "amount": 10.34,
+    "timestamp": 20240418092341,
+    "status": "failed"
+  },
+  {
+    "id": 10471,
+    "storeId": 5004,
+    "amount": 11.02,
+    "timestamp": 20240415063640,
+    "status": "failed"
+  },
+  {
+    "id": 10472,
+    "storeId": 5000,
+    "amount": 15.2,
+    "timestamp": 20240217063640,
+    "status": "success"
+  },
+  {
+    "id": 10473,
+    "storeId": 5004,
+    "amount": 11.55,
+    "timestamp": 20240612023846,
+    "status": "failed"
+  },
+  {
+    "id": 10474,
+    "storeId": 5002,
+    "amount": 19.87,
+    "timestamp": 20240310095259,
+    "status": "failed"
+  },
+  {
+    "id": 10475,
+    "storeId": 5003,
+    "amount": 13.36,
+    "timestamp": 20240421124123,
+    "status": "success"
+  },
+  {
+    "id": 10476,
+    "storeId": 5008,
+    "amount": 17.35,
+    "timestamp": 20241219080443,
+    "status": "failed"
+  },
+  {
+    "id": 10477,
+    "storeId": 5004,
+    "amount": 10.37,
+    "timestamp": 20240911091327,
+    "status": "failed"
+  },
+  {
+    "id": 10478,
+    "storeId": 5004,
+    "amount": 12.81,
+    "timestamp": 20240305060855,
+    "status": "success"
+  },
+  {
+    "id": 10479,
+    "storeId": 5004,
+    "amount": 12.15,
+    "timestamp": 20240130121428,
+    "status": "failed"
+  },
+  {
+    "id": 10480,
+    "storeId": 5002,
+    "amount": 11.47,
+    "timestamp": 20241107072649,
+    "status": "success"
+  },
+  {
+    "id": 10481,
+    "storeId": 5002,
+    "amount": 13.37,
+    "timestamp": 20240911030314,
+    "status": "failed"
+  },
+  {
+    "id": 10482,
+    "storeId": 5002,
+    "amount": 10.97,
+    "timestamp": 20240920013906,
+    "status": "failed"
+  },
+  {
+    "id": 10483,
+    "storeId": 5009,
+    "amount": 19.94,
+    "timestamp": 20240229061710,
+    "status": "success"
+  },
+  {
+    "id": 10484,
+    "storeId": 5008,
+    "amount": 12.47,
+    "timestamp": 20240320055216,
+    "status": "failed"
+  },
+  {
+    "id": 10485,
+    "storeId": 5002,
+    "amount": 14.89,
+    "timestamp": 20240531092849,
+    "status": "success"
+  },
+  {
+    "id": 10486,
+    "storeId": 5007,
+    "amount": 16.91,
+    "timestamp": 20240604120546,
+    "status": "failed"
+  },
+  {
+    "id": 10487,
+    "storeId": 5003,
+    "amount": 12.18,
+    "timestamp": 20250102073712,
+    "status": "success"
+  },
+  {
+    "id": 10488,
+    "storeId": 5008,
+    "amount": 19.81,
+    "timestamp": 20241121015719,
+    "status": "success"
+  },
+  {
+    "id": 10489,
+    "storeId": 5000,
+    "amount": 12.63,
+    "timestamp": 20240710091042,
+    "status": "failed"
+  },
+  {
+    "id": 10490,
+    "storeId": 5008,
+    "amount": 14.67,
+    "timestamp": 20240513084230,
+    "status": "success"
+  },
+  {
+    "id": 10491,
+    "storeId": 5009,
+    "amount": 11.43,
+    "timestamp": 20240113033806,
+    "status": "success"
+  },
+  {
+    "id": 10492,
+    "storeId": 5010,
+    "amount": 18.97,
+    "timestamp": 20240115081002,
+    "status": "success"
+  },
+  {
+    "id": 10493,
+    "storeId": 5006,
+    "amount": 19.91,
+    "timestamp": 20240721020646,
+    "status": "success"
+  },
+  {
+    "id": 10494,
+    "storeId": 5003,
+    "amount": 12,
+    "timestamp": 20240522020531,
+    "status": "success"
+  },
+  {
+    "id": 10495,
+    "storeId": 5000,
+    "amount": 18.21,
+    "timestamp": 20240530071935,
+    "status": "success"
+  },
+  {
+    "id": 10496,
+    "storeId": 5009,
+    "amount": 14.02,
+    "timestamp": 20240310073526,
+    "status": "success"
+  },
+  {
+    "id": 10497,
+    "storeId": 5005,
+    "amount": 14.04,
+    "timestamp": 20241223024242,
+    "status": "success"
+  },
+  {
+    "id": 10498,
+    "storeId": 5004,
+    "amount": 17.16,
+    "timestamp": 20240617024820,
+    "status": "failed"
+  },
+  {
+    "id": 10499,
+    "storeId": 5005,
+    "amount": 15.14,
+    "timestamp": 20240419031107,
+    "status": "failed"
+  },
+  {
+    "id": 10500,
+    "storeId": 5002,
+    "amount": 13.29,
+    "timestamp": 20240426095732,
+    "status": "success"
+  }
+]

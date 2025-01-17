@@ -1,0 +1,14 @@
+{
+    "properties": [
+        {
+            "name": "callable-feign.url",
+            "type": "java.lang.String",
+            "description": "URL for Server API'"
+        },
+        {
+            "name": "feign.logger.level",
+            "type": "java.lang.String",
+            "description": "Set log level for Feign"
+        }
+    ]
+}

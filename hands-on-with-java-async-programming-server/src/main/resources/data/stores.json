@@ -1,0 +1,68 @@
+[
+    {
+      "id": 5000,
+      "name": "CodeName-Kenegy",
+      "venue": "Miller Place Store",
+      "merchantId": 1001
+    },
+    {
+      "id": 5001,
+      "name": "CodeName-Sloganaut",
+      "venue": "Tilden Avenue Store",
+      "merchantId": 2001
+    },
+    {
+      "id": 5002,
+      "name": "CodeName-Irack",
+      "venue": "Hemlock Street Store",
+      "merchantId": 1001
+    },
+    {
+      "id": 5003,
+      "name": "CodeName-Amtap",
+      "venue": "Montgomery Place Store",
+      "merchantId": 2001
+    },
+    {
+      "id": 5004,
+      "name": "CodeName-Kneedles",
+      "venue": "Hoyt Street Store",
+      "merchantId": 4001
+    },
+    {
+      "id": 5005,
+      "name": "CodeName-Comdom",
+      "venue": "Monitor Street Store",
+      "merchantId": 3001
+    },
+    {
+      "id": 5006,
+      "name": "CodeName-Ecraze",
+      "venue": "Rewe Street Store",
+      "merchantId": 1001
+    },
+    {
+      "id": 5007,
+      "name": "CodeName-Enervate",
+      "venue": "Highland Place Store",
+      "merchantId": 2001
+    },
+    {
+      "id": 5008,
+      "name": "CodeName-Jasper",
+      "venue": "Schenck Place Store",
+      "merchantId": 1001
+    },
+    {
+      "id": 5009,
+      "name": "CodeName-Aclima",
+      "venue": "Montrose Avenue Store",
+      "merchantId": 3001
+    },
+    {
+      "id": 5010,
+      "name": "CodeName-Slofast",
+      "venue": "Luquer Street Store",
+      "merchantId": 4001
+    }
+  ]
