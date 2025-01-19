@@ -30,16 +30,15 @@ public class CallableService {
   }
 
   // E01
-  private void singleThreadCallableExample() {
+  public void singleThreadCallableExample() {
     /* single threaded callable example to process one merchant */
     Callable<List<Transactions>> trxCallable =
         () -> {
           log.info("Started calling Server");
-          return feignClient.getSuccessTransactionsForMerchant(1001l);
+          return feignClient.getSuccessTransactionsForMerchant(1001L);
         };
 
-    ExecutorService exec = Executors.newSingleThreadExecutor();
-    try (exec) {
+    try (ExecutorService exec = Executors.newSingleThreadExecutor()) {
       Future<List<Transactions>> trxFuture = exec.submit(trxCallable);
       trxFuture.get().forEach(t -> log.info("Transaction:{}", t));
     } catch (InterruptedException | ExecutionException e) {

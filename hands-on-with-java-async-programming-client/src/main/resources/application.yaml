@@ -1,5 +1,6 @@
 server:
   port: 8087
+  shutdown: immediate
 
 spring:
   application:
@@ -8,6 +9,3 @@ spring:
 feign-client:
     url: http://localhost:8089/api/v1/transactions
 
-feign:
-  logger:
-    level: FULL

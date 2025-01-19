@@ -17,7 +17,10 @@ import io.appx.codelabs.how.jasyncprog.server.repository.DataLoaderRepository;
 @RequestMapping("/api/v1/transactions")
 public class TransactionController {
 
-  private static final int DEFAULT_DELAY = 2500;
+  private static final int DEFAULT_DELAY = 4000;
+  private static final int SHORT_DELAY = 1000;
+  private static final int LONG_DELAY = 8000;
+
   private final DataLoaderRepository repository;
 
   public TransactionController(DataLoaderRepository repository) {

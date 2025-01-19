@@ -17,7 +17,15 @@ public interface TransactionFeignClient {
   public List<Transactions> getSuccessTransactionsForMerchant(
       @PathVariable(name = "merchant_id") long merchantId);
 
+  @GetMapping("/by/merchant/{merchant_id}/failed")
+  public List<Transactions> getFailedTransactionsForMerchant(
+      @PathVariable(name = "merchant_id") long merchantId);
+
   @GetMapping("/by/store/{store_id}/success")
+  public List<Transactions> getSuccessfulTransactionsForStore(
+      @PathVariable(name = "store_id") long storeId);
+
+  @GetMapping("/by/store/{store_id}/failed")
   public List<Transactions> getFailedTransactionsForStore(
       @PathVariable(name = "store_id") long storeId);
 }
