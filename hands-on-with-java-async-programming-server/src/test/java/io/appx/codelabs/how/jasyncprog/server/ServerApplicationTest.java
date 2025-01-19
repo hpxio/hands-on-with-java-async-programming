@@ -4,8 +4,6 @@ import org.junit.jupiter.api.Test;
 
 class ServerApplicationTest {
 
-    @Test
-    void contextLoads() {
-
-    }
+  @Test
+  void contextLoads() {}
 }

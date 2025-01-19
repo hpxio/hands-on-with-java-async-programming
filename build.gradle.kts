@@ -21,11 +21,21 @@ allprojects {
     apply(plugin = "io.spring.dependency-management")
 
     // auto-linter for *.java & *.gradle.kts files
-    // configure<com.diffplug.gradle.spotless.SpotlessExtension> {
-    //     java {
-    //         palantirJavaFormat()
-    //     }
-    // }
+    configure<com.diffplug.gradle.spotless.SpotlessExtension> {
+        java {
+            googleJavaFormat()
+            importOrder(
+                "java",
+                "javax",
+                "",
+                "org.springframework",
+                "org",
+                "lombok",
+                "io",
+                "com",
+            )
+        }
+    }
     spotless {
         kotlinGradle {
             target("*.gradle.kts")

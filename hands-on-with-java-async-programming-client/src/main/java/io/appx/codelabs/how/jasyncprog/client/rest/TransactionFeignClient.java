@@ -13,9 +13,11 @@ import io.appx.codelabs.how.jasyncprog.client.model.Transactions;
 @FeignClient(name = "TransactionReportCallableFeign", url = "${feign-client.url}")
 public interface TransactionFeignClient {
 
-    @GetMapping("/by/merchant/{merchant_id}/success")
-    public List<Transactions> getSuccessTransactionsForMerchant(@PathVariable(name = "merchant_id") long merchantId);
+  @GetMapping("/by/merchant/{merchant_id}/success")
+  public List<Transactions> getSuccessTransactionsForMerchant(
+      @PathVariable(name = "merchant_id") long merchantId);
 
-    @GetMapping("/by/store/{store_id}/success")
-    public List<Transactions> getFailedTransactionsForStore(@PathVariable(name = "store_id") long storeId);
+  @GetMapping("/by/store/{store_id}/success")
+  public List<Transactions> getFailedTransactionsForStore(
+      @PathVariable(name = "store_id") long storeId);
 }
