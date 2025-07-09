@@ -8,7 +8,7 @@
 - Threads, Synchronization, Thread Methods, Cyclic Barrier, Countdown Latch
 - Runnable, Callable, Future, CompletableFuture, Parallel Stream
 - Inter-thread Communication, Result Processing, Exception Handling
-- Race, Dead Lock, Semaphores
+- Race, Dead Lock, Semaphores & Mutexes, ThreadLocal, Atomic, Volatile
 
 ## Premise of Examples
 
