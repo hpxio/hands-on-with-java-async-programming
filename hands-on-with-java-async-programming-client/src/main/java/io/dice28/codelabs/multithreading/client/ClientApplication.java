@@ -9,9 +9,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.openfeign.EnableFeignClients;
 import org.springframework.context.ConfigurableApplicationContext;
 
+import lombok.extern.slf4j.Slf4j;
+
 import io.dice28.codelabs.multithreading.client.service.CompletableService;
 import io.dice28.codelabs.multithreading.client.service.RunnableService;
-import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
 @EnableFeignClients

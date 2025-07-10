@@ -2,29 +2,33 @@
     {
       "id": 4001,
       "uid": 43788119,
-      "city": "Longbranch",
-      "state": "Palau",
-      "country": "Togo"
+      "name": "Merchant-A",
+      "city": "Pheonix",
+      "state": "Texas",
+      "country": "United States"
     },
     {
       "id": 1001,
       "uid": 43788120,
-      "city": "Nadine",
-      "state": "Wisconsin",
-      "country": "El Salvador"
+      "name": "Merchant-B",
+      "city": "Sydney",
+      "state": "South Wales",
+      "country": "Australia"
     },
     {
       "id": 3001,
       "uid": 43788121,
-      "city": "Fairfield",
-      "state": "Marshall Islands",
-      "country": "Korea (North)"
+      "name": "Merchant-C",
+      "city": "Suwon",
+      "state": "Gyeonggi",
+      "country": "South Korea"
     },
     {
       "id": 2001,
       "uid": 43788122,
-      "city": "Grandview",
-      "state": "Colorado",
-      "country": "Chad"
+      "name": "Merchant-D",
+      "city": "Shibuya",
+      "state": "Tokyo",
+      "country": "Japan"
     }
   ]

@@ -9,9 +9,10 @@ import java.util.function.Supplier;
 
 import org.springframework.stereotype.Service;
 
+import lombok.extern.slf4j.Slf4j;
+
 import io.dice28.codelabs.multithreading.client.model.Transactions;
 import io.dice28.codelabs.multithreading.client.rest.TransactionFeignClient;
-import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
 @Service

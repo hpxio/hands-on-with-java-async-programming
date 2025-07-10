@@ -19,9 +19,11 @@ import com.fasterxml.jackson.annotation.JsonInclude;
 @JsonInclude(JsonInclude.Include.NON_NULL)
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class Transactions {
+
   private long id;
   private long storeId;
   private double amount;
+
   private String timestamp;
   private String status;
 }

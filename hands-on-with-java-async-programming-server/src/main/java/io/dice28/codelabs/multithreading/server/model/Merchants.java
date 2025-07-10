@@ -21,6 +21,7 @@ import com.fasterxml.jackson.annotation.JsonInclude;
 public class Merchants {
   private long id;
   private String uid;
+  private String name;
   private String city;
   private String state;
   private String country;

@@ -13,18 +13,20 @@ import org.springframework.stereotype.Repository;
 import lombok.Getter;
 import lombok.extern.slf4j.Slf4j;
 
-import com.fasterxml.jackson.core.type.TypeReference;
-import com.fasterxml.jackson.databind.ObjectMapper;
-
 import io.dice28.codelabs.multithreading.server.model.Merchants;
 import io.dice28.codelabs.multithreading.server.model.Stores;
 import io.dice28.codelabs.multithreading.server.model.Transactions;
+import io.dice28.codelabs.multithreading.server.utils.SleepUtils;
+
+import com.fasterxml.jackson.core.type.TypeReference;
+import com.fasterxml.jackson.databind.ObjectMapper;
 
 @Slf4j
 @Repository
-public class DataLoaderRepository {
+public class TransactionRepository {
 
   private static final String SUCCESS_STATUS = "success";
+
   private static final String FAILED_STATUS = "failed";
 
   @Getter private List<Transactions> transactions;
@@ -53,30 +55,61 @@ public class DataLoaderRepository {
     }
   }
 
-  public List<Transactions> getTransactionsByStoreId(long storeId) {
+  public List<Transactions> fetchTransactionByStoreAndStatus(long storeId, String status) {
+    return switch (status) {
+      case SUCCESS_STATUS, FAILED_STATUS -> {
+        SleepUtils.defaultDelay();
+        yield filterTransactionByStoreIdAndStatus(storeId, status);
+      }
+      default -> {
+        SleepUtils.longDelay();
+        yield filterTransactionByStoreId(storeId);
+      }
+    };
+  }
+
+  public List<Transactions> fetchTransactionByMerchantAndStatus(long merchantId, String status) {
+    return switch (status) {
+      case SUCCESS_STATUS, FAILED_STATUS -> {
+        SleepUtils.longDelay();
+        yield filterTransactionByMerchantIdAndStatus(merchantId, status);
+      }
+      default -> {
+        SleepUtils.longDelay();
+        yield filterTransactionByMerchantId(merchantId);
+      }
+    };
+  }
+
+  /**
+   * Get all transactions filtered by Store
+   *
+   * @param storeId Store identifier to filter records
+   * @return List<Transactions> List of transactions for matching stores
+   */
+  private List<Transactions> filterTransactionByStoreId(long storeId) {
     return this.transactions.stream().filter(m -> m.getStoreId() == storeId).toList();
   }
 
-  public List<Stores> getStoresByMerchantId(long merchantId) {
-    return this.stores.stream().filter(s -> s.getMerchantId() == merchantId).toList();
-  }
-
-  public List<Transactions> getFailedTransactionsByStoreId(long storeId) {
+  /**
+   * Get all transactions filtered by Store & Status
+   *
+   * @param storeId Store identifier to filter records
+   * @return List<Transactions> List of transactions for matching stores
+   */
+  private List<Transactions> filterTransactionByStoreIdAndStatus(long storeId, String status) {
     return this.transactions.stream()
-        .filter(
-            trx -> trx.getStoreId() == storeId && trx.getStatus().equalsIgnoreCase(FAILED_STATUS))
+        .filter(trx -> trx.getStoreId() == storeId && trx.getStatus().equalsIgnoreCase(status))
         .toList();
   }
 
-  public List<Transactions> getSuccessTransactionsByStoreId(long storeId) {
-    return this.transactions.stream()
-        .filter(
-            trx -> trx.getStoreId() == storeId && trx.getStatus().equalsIgnoreCase(SUCCESS_STATUS))
-        .toList();
-  }
-
-  /* Get all transactions under a given merchant */
-  public List<Transactions> getAllTransactionByMerchantid(long merchantId) {
+  /**
+   * Get all transactions for a given merchant
+   *
+   * @param merchantId Merchant identifier to filter records
+   * @return List<Transactions> List of transactions for matching stores
+   */
+  private List<Transactions> filterTransactionByMerchantId(long merchantId) {
     /* first find if the merchant exists, if yes then find stores */
     if (this.merchants.stream().anyMatch(m -> m.getId() == merchantId)) {
       return this.transactions.stream()
@@ -92,8 +125,8 @@ public class DataLoaderRepository {
     }
   }
 
-  /* Get all successful transactions under a given merchant */
-  public List<Transactions> getSuccessTransactionByMerchantid(long merchantId) {
+  private List<Transactions> filterTransactionByMerchantIdAndStatus(
+      long merchantId, String status) {
     if (this.merchants.stream().anyMatch(m -> m.getId() == merchantId)) {
       return this.transactions.stream()
           .filter(
@@ -103,7 +136,7 @@ public class DataLoaderRepository {
                           s ->
                               s.getMerchantId() == merchantId
                                   && s.getId() == t.getStoreId()
-                                  && t.getStatus().equalsIgnoreCase(SUCCESS_STATUS)))
+                                  && t.getStatus().equalsIgnoreCase(status)))
           .toList();
     } else {
       log.error("Merchant not found!");
@@ -111,22 +144,13 @@ public class DataLoaderRepository {
     }
   }
 
-  /* Get all successful transactions under a given merchant */
-  public List<Transactions> getFailedTransactionByMerchantid(long merchantId) {
-    if (this.merchants.stream().anyMatch(m -> m.getId() == merchantId)) {
-      return this.transactions.stream()
-          .filter(
-              t ->
-                  this.stores.stream()
-                      .anyMatch(
-                          s ->
-                              s.getMerchantId() == merchantId
-                                  && s.getId() == t.getStoreId()
-                                  && t.getStatus().equalsIgnoreCase(FAILED_STATUS)))
-          .toList();
-    } else {
-      log.error("Merchant not found!");
-      return Collections.emptyList();
-    }
+  /**
+   * Get all stores filtered by Merchant
+   *
+   * @param merchantId Merchant identifier to filter records
+   * @return List<Stores> List of stores for matching merchants
+   */
+  public List<Stores> getStoresByMerchantId(long merchantId) {
+    return this.stores.stream().filter(s -> s.getMerchantId() == merchantId).toList();
   }
 }
