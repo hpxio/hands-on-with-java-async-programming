@@ -34,8 +34,8 @@ public class StoresController {
   @GetMapping("/store/{store_id}/transactions")
   public List<Transactions> getTransactionsByStoreIdAndState(
       @PathVariable(name = "store_id") long storeId,
-      @RequestParam(required = false) String status) {
-    log.info("Get transactions by Store : {}, state : <{}>", storeId, status);
+      @RequestParam(name = "status", required = false) String status) {
+    log.info("Get transactions by store : {}, state : <{}>", storeId, status);
     return repository.fetchTransactionByStoreAndStatus(storeId, status);
   }
 }

@@ -11,8 +11,8 @@ import org.springframework.stereotype.Service;
 
 import lombok.extern.slf4j.Slf4j;
 
+import io.dice28.codelabs.multithreading.client.feign.TransactionFeignClient;
 import io.dice28.codelabs.multithreading.client.model.Transactions;
-import io.dice28.codelabs.multithreading.client.rest.TransactionFeignClient;
 
 @Slf4j
 @Service
@@ -30,7 +30,7 @@ public class CompletableService {
         () -> {
           Long first = merchants.getFirst();
           log.info("Collecting transactions for merchant : {}", first);
-          return feignClient.getSuccessTransactionsForMerchant(first);
+          return feignClient.getSuccessfulTransactionByMerchant(first);
         };
 
     /* simplest way to create, invoke then collect result from CF */
@@ -47,7 +47,7 @@ public class CompletableService {
               () -> {
                 Long first = merchants.getFirst();
                 log.info("Collecting transactions for merchant : {}", first);
-                return feignClient.getSuccessTransactionsForMerchant(first);
+                return feignClient.getSuccessfulTransactionByMerchant(first);
               },
               exec);
 
@@ -66,7 +66,7 @@ public class CompletableService {
                   CompletableFuture.supplyAsync(
                       () -> {
                         log.info("Collecting Transactions for : {}", merchant);
-                        return feignClient.getSuccessTransactionsForMerchant(merchant);
+                        return feignClient.getSuccessfulTransactionByMerchant(merchant);
                       },
                       exec)));
 

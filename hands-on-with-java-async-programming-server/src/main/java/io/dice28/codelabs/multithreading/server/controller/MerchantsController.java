@@ -12,6 +12,7 @@ import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 
 import io.dice28.codelabs.multithreading.server.model.Merchants;
+import io.dice28.codelabs.multithreading.server.model.Stores;
 import io.dice28.codelabs.multithreading.server.model.Transactions;
 import io.dice28.codelabs.multithreading.server.repository.TransactionRepository;
 import io.dice28.codelabs.multithreading.server.utils.SleepUtils;
@@ -31,11 +32,17 @@ public class MerchantsController {
     return repository.getMerchants();
   }
 
+  @GetMapping("/merchant/{merchant_id}/stores")
+  public List<Stores> getStoresByMerchant(@PathVariable(name = "merchant_id") long merchantId) {
+    log.info("Get stores by merchant : {}", merchantId);
+    return repository.fetchStoresByMerchant(merchantId);
+  }
+
   @GetMapping("/merchant/{merchant_id}/transactions")
   public List<Transactions> getTransactionsByMerchant(
       @PathVariable(name = "merchant_id") long merchantId,
-      @RequestParam(required = false) String status) {
-    log.info("Get transactions by Merchant : {}, state : <{}>", merchantId, status);
+      @RequestParam(name = "status", required = false) String status) {
+    log.info("Get transactions by merchant : {}, state : <{}>", merchantId, status);
     return repository.fetchTransactionByMerchantAndStatus(merchantId, status);
   }
 }

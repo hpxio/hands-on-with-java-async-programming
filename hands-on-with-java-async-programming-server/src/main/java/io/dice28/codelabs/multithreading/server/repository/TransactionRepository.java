@@ -150,7 +150,8 @@ public class TransactionRepository {
    * @param merchantId Merchant identifier to filter records
    * @return List<Stores> List of stores for matching merchants
    */
-  public List<Stores> getStoresByMerchantId(long merchantId) {
+  public List<Stores> fetchStoresByMerchant(long merchantId) {
+    SleepUtils.longDelay();
     return this.stores.stream().filter(s -> s.getMerchantId() == merchantId).toList();
   }
 }

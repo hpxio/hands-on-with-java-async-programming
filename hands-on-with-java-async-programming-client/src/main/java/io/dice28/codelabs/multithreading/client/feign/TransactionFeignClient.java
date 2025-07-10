@@ -1,4 +1,4 @@
-package io.dice28.codelabs.multithreading.client.rest;
+package io.dice28.codelabs.multithreading.client.feign;
 
 import java.util.List;
 
@@ -13,19 +13,19 @@ import io.dice28.codelabs.multithreading.client.model.Transactions;
 @FeignClient(name = "TransactionReportCallableFeign", url = "${feign-client.url}")
 public interface TransactionFeignClient {
 
-  @GetMapping("/by/merchant/{merchant_id}/success")
-  public List<Transactions> getSuccessTransactionsForMerchant(
+  @GetMapping("/api/v1/merchants/merchant{merchant_id}/transactions?status=success")
+  public List<Transactions> getSuccessfulTransactionByMerchant(
       @PathVariable(name = "merchant_id") long merchantId);
 
-  @GetMapping("/by/merchant/{merchant_id}/failed")
-  public List<Transactions> getFailedTransactionsForMerchant(
+  @GetMapping("/api/v1/merchants/merchant{merchant_id}/transactions?status=failed")
+  public List<Transactions> getFailedTransactionsByMerchant(
       @PathVariable(name = "merchant_id") long merchantId);
 
-  @GetMapping("/by/store/{store_id}/success")
-  public List<Transactions> getSuccessfulTransactionsForStore(
+  @GetMapping("/api/v1/stores/store{store_id}/transactions?status=success")
+  public List<Transactions> getSuccessfulTransactionsByStore(
       @PathVariable(name = "store_id") long storeId);
 
-  @GetMapping("/by/store/{store_id}/failed")
-  public List<Transactions> getFailedTransactionsForStore(
+  @GetMapping("/api/v1/stores/store{store_id}/transactions?status=failed")
+  public List<Transactions> getFailedTransactionsByStore(
       @PathVariable(name = "store_id") long storeId);
 }

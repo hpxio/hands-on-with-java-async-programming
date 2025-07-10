@@ -16,8 +16,8 @@ import org.apache.logging.log4j.util.Strings;
 
 import lombok.extern.slf4j.Slf4j;
 
+import io.dice28.codelabs.multithreading.client.feign.TransactionFeignClient;
 import io.dice28.codelabs.multithreading.client.model.Transactions;
-import io.dice28.codelabs.multithreading.client.rest.TransactionFeignClient;
 
 @Slf4j
 @Service
@@ -35,7 +35,7 @@ public class CallableService {
     Callable<List<Transactions>> trxCallable =
         () -> {
           log.info("Started calling Server");
-          return feignClient.getSuccessTransactionsForMerchant(1001L);
+          return feignClient.getSuccessfulTransactionByMerchant(1001L);
         };
 
     try (ExecutorService exec = Executors.newSingleThreadExecutor()) {
@@ -47,13 +47,14 @@ public class CallableService {
   }
 
   // E02
+  @SuppressWarnings("unused")
   private void singleThreadCallableExampleBad(List<Long> input) {
     try (ExecutorService exec = Executors.newFixedThreadPool(1)) {
       for (Long merchantId : input) {
         Callable<List<Transactions>> trxCallable =
             () -> {
               log.info("Started called Server");
-              return feignClient.getSuccessTransactionsForMerchant(merchantId);
+              return feignClient.getSuccessfulTransactionByMerchant(merchantId);
             };
         Future<List<Transactions>> trxFuture = exec.submit(trxCallable);
         try {
@@ -66,6 +67,7 @@ public class CallableService {
   }
 
   // E03
+  @SuppressWarnings("unused")
   private void multiThreadCallableExampleBetter(List<Long> input) {
     List<Callable<List<Transactions>>> callableList =
         input.stream()
@@ -74,7 +76,7 @@ public class CallableService {
                   Callable<List<Transactions>> c =
                       () -> {
                         log.info("Started calling Server for : {}", id);
-                        return feignClient.getSuccessTransactionsForMerchant(id);
+                        return feignClient.getSuccessfulTransactionByMerchant(id);
                       };
                   return c;
                 })
@@ -97,6 +99,7 @@ public class CallableService {
   }
 
   // E04
+  @SuppressWarnings("unused")
   private void multiThreadCallableExampleBetterish(List<Long> input) throws InterruptedException {
     ConcurrentHashMap<Long, List<Transactions>> result = new ConcurrentHashMap<>();
     List<Callable<Void>> trxCallableList = new ArrayList<>();
@@ -108,7 +111,7 @@ public class CallableService {
                 () -> {
                   log.info("Started calling Server for : {}", merchantId);
                   List<Transactions> trx =
-                      feignClient.getSuccessTransactionsForMerchant(merchantId);
+                      feignClient.getSuccessfulTransactionByMerchant(merchantId);
                   result.put(merchantId, trx);
                   return null; // bad programming practice
                 };

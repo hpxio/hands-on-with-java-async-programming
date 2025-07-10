@@ -1,0 +1,22 @@
+### TRANSACTIONS
+GET http://localhost:8089/api/v1/transactions
+
+
+### TRANSACTIONS BY STORES
+GET http://localhost:8089/api/v1/stores
+
+
+### STORES BY MERCHANTS
+GET http://localhost:8089/api/v1/merchants
+###
+GET http://localhost:8089/api/v1/merchants/merchant/1001/stores
+###
+GET http://localhost:8089/api/v1/merchants/merchant/4001/stores
+
+
+### TRANSACTIONS BY MERCHANTS
+GET http://localhost:8089/api/v1/merchants/merchant/1001/transactions?status=
+###
+GET http://localhost:8089/api/v1/merchants/merchant/2001/transactions?status=success
+###
+GET http://localhost:8089/api/v1/merchants/merchant/3001/transactions?status=failed

@@ -9,8 +9,8 @@ import org.springframework.stereotype.Service;
 
 import lombok.extern.slf4j.Slf4j;
 
+import io.dice28.codelabs.multithreading.client.feign.TransactionFeignClient;
 import io.dice28.codelabs.multithreading.client.model.Transactions;
-import io.dice28.codelabs.multithreading.client.rest.TransactionFeignClient;
 
 @Slf4j
 @Service
@@ -28,7 +28,7 @@ public class RunnableService {
     Map<Long, List<Transactions>> result = new HashMap<>();
     for (Long storeId : storeIds) {
       log.info("Fetching data for store : {}", storeId);
-      List<Transactions> failed = feignClient.getFailedTransactionsForStore(storeId);
+      List<Transactions> failed = feignClient.getFailedTransactionsByStore(storeId);
       log.info("Store : <{}> : Count : <{}>", storeId, failed.size());
       result.put(storeId, failed);
     }
@@ -43,7 +43,7 @@ public class RunnableService {
       Runnable runnable =
           () -> {
             log.info("Fetching data for store : {}", storeId);
-            List<Transactions> failed = feignClient.getFailedTransactionsForStore(storeId);
+            List<Transactions> failed = feignClient.getFailedTransactionsByStore(storeId);
             log.info("Store : <{}> : Count : <{}>", storeId, failed.size());
             result.put(storeId, failed);
           };

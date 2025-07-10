@@ -7,7 +7,6 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.openfeign.EnableFeignClients;
-import org.springframework.context.ConfigurableApplicationContext;
 
 import lombok.extern.slf4j.Slf4j;
 
@@ -26,7 +25,7 @@ public class ClientApplication implements CommandLineRunner {
   @Autowired private CompletableService completableService;
 
   public static void main(String[] args) {
-    ConfigurableApplicationContext context = SpringApplication.run(ClientApplication.class, args);
+    SpringApplication.run(ClientApplication.class, args);
   }
 
   @Override
